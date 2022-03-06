@@ -3,7 +3,7 @@
 
 body {
     background: #fbfbfb;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PTSans', sans-serif;
 }
 
 .btn, .team_col img {
@@ -1494,14 +1494,6 @@ h1 {
     max-width: 410px;
     text-align: center;
     margin: 0px auto;
-}
-
-.row3 {
-    /* text-align: center; */
-}
-
-.row3 h2 {
-    /* text-align: center; */
 }
 
 .team_col {
