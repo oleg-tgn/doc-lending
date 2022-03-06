@@ -914,8 +914,8 @@ font-weight: 400;
 
 
 .row-team1 {
-    display: none;
-    padding: 110px 0px 0px;
+    display: block;
+    padding: 0;
     background: #292a2d;
 }
 
