@@ -353,20 +353,6 @@ margin-bottom: 0px;
     padding-top: 40px;
 }
 
-
-
-.cont1_1:before {
-    content: '';
-    position: absolute;
-    background: url(../img/bg1.png) left top -110px no-repeat;
-    width: 1062px;
-    height: 786px;
-    top: 0px;
-    z-index: -10;
-    left: 710px;
-}
-
-
 .ne_nashli_form  .col-md-6 .iti {
     margin-top: 0px!important;
 }
