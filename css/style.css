@@ -864,13 +864,12 @@ font-weight: 400;
 
 
 
-
-
-
-
 .row-faq {
-    padding: 50px 0px;
+    padding: 100px 0px;
     display: block;
+    background: url('../img/vbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .row-faq h2 {
