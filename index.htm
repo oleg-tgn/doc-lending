@@ -64,19 +64,12 @@
 
       <div class="mainNavLogo hidden-xs"><a href="index.php.html"><img src="services/img/logo.svg"></a></div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a href="#guarantee" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>О компании</b></a></li>
-        <li class="dropdown"><a href="#guarantee" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Наша команда</b></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Услуги</b>&nbsp;<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-              <li><a href="services/index.htm">Сертификация ТР ТС</a></li>
-              <li><a href="services/index.htm">Декларирование ТР ТС</a></li>
-              <li><a href="services/index.htm">Технические регламенты ТС</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="#guarantee" role="button" aria-haspopup="true" aria-expanded="false" onclick="$('html,body').animate( { scrollTop: $('#guarantee').offset().top - 60 }, 900 ); return false;"><b>Гарантии</b></a></li>
-        <li class="dropdown"><a href="#articles" role="button" aria-haspopup="true" aria-expanded="false" onclick="$('html,body').animate( { scrollTop: $('#articles').offset().top - 60 }, 900 ); return false;"><b>Публикации</b></a></li>
-        <li class="dropdown"><a href="#contacts" role="button" aria-haspopup="true" aria-expanded="false" onclick="$('html,body').animate( { scrollTop: $('#contacts').offset().top - 60 }, 900 ); return false;"><b>Контакты</b></a></li>
+        <li class="dropdown"><a href="#sertification-types" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Сертификация</b></a></li>
+        <li class="dropdown"><a href="#thanks" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Благодарности</b></a></li>
+        <li class="dropdown"><a href="#guarantee" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Преимущества</b></a></li>
+        <li class="dropdown"><a href="#team" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Наша команда</b></a></li>
+        <li class="dropdown"><a href="#faq" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Вопросы</b></a></li>        
+        <li class="dropdown"><a href="#contacts" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Контакты</b></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -103,19 +96,12 @@
       </div>
       <div class="serviceMenu">
         <div class="container">
-          <a href="#guarantee" class="smLink teamHref">О компании</a>
-          <a href="#guarantee" class="smLink teamHref">Наша команда</a>
-          <div class="serviceMenuDropdown dropdown">
-            <a href="#" class="smLink dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Услуги</b>&nbsp;<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="services/index.htm">Сертификация ТР ТС</a></li>
-              <li><a href="services/index.htm">Декларирование ТР ТС</a></li>
-              <li><a href="services/index.htm">Технические регламенты ТС</a></li>
-            </ul>
-          </div>
-          <a href="#guarantee" class="smLink" onclick="$('html,body').animate( { scrollTop: $('#guarantee').offset().top - 60 }, 900 ); return false;">Гарантии</a>
-          <a href="#articles" class="smLink" onclick="$('html,body').animate( { scrollTop: $('#articles').offset().top - 60 }, 900 ); return false;">Публикации</a>
-          <a href="#contacts" class="smLink" onclick="$('html,body').animate( { scrollTop: $('#contacts').offset().top - 60 }, 900 ); return false;">Контакты</a>
+          <a href="#sertification-types" class="smLink teamHref">Сертификация</a>,
+          <a href="#thanks" class="smLink teamHref">Благодарности</a>          
+          <a href="#guarantee" class="smLink teamHref">Преимущества</a>
+          <a href="#team" class="smLink teamHref">Наша команда</a>
+          <a href="#faq" class="smLink teamHref">Вопросы</a>                    
+          <a href="#contacts" class="smLink teamHref">Контакты</a>
         </div>
       </div>
 
@@ -146,7 +132,7 @@
       </div>
     </div>
 
-    <section class="container-fluid bg-slide-container">
+    <section class="container-fluid bg-slide-container" id="sertification-types">
       <div class="col-12 section">        
               <div class="row">            
               <div id="" data-slide="slide-0" class="col-lg-3 gallery-img d-flex on-hover">
@@ -241,7 +227,7 @@
       </div>      
     </section> 
   
-    <div class="row-fluid row-faq">
+    <div class="row-fluid row-faq" id="thanks">
       <div class="container">
         <h2 class="text-center">Благодарственные письма</h2>
         <p class="h2_desc">Более 100 компаний оставили положительные отзывы о работе с СК Сертификат</p>
@@ -387,7 +373,7 @@
 		</div>
 	</div>
 
-  <div class="row-fluid row-team1">    
+  <div class="row-fluid row-team1" id="team">    
     <div class="container team-slider">
       <h2 class="text-center">Наша команда</h2>
         <div class="slider_cont">
@@ -441,7 +427,7 @@
 
 
 
-	<div class="row-fluid row-faq">
+	<div class="row-fluid row-faq" id="faq">
 		<div class="container">
 			<h2 class="text-center">Остались вопросы?</h2>
       <div class="col-md-8 col-md-offset-2 faq">
