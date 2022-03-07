@@ -118,7 +118,7 @@ body {
 }
 
 
-.anim-btn {
+/* .anim-btn {
   position: relative;
   overflow: hidden;
 }
@@ -155,7 +155,7 @@ body {
     -webkit-transition: none !important;
     transition: none !important;
   }
-}
+} */
 
 
 
@@ -396,31 +396,25 @@ h1 span {
 
 .btn_top {
     background-color: #3099e9;
-    /* IE9, iOS 3.2+ */
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTY4MWQzIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiM0OWIwZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%,color-stop(0, rgb(22, 129, 211)),color-stop(1, rgb(73, 176, 255)));
-    /* Android 2.3 */
-    background-image: -webkit-repeating-linear-gradient(bottom,rgb(22, 129, 211) 0%,rgb(73, 176, 255) 100%);
-    /* IE10+ */
-    background-image: repeating-linear-gradient(to top,rgb(22, 129, 211) 0%,rgb(73, 176, 255) 100%);
-    background-image: -ms-repeating-linear-gradient(bottom,rgb(22, 129, 211) 0%,rgb(73, 176, 255) 100%);
-     font-size: 21px;
+    font-size: 21px;
     font-weight: 500;
     color: #fff;
     padding: 19px 55px;
-    border-radius: 100px;
     border: none;
     border-bottom: 4px solid #14629e;
     margin-top: 24px;
-     box-shadow: 0px 6px 24px rgba(20, 98, 158, 0.68);
 }
 
 
-.btn_top:hover, .btn_top:focus, .btn_top:active, .btn_top:visited {
+.btn_top:hover, .btn_top:active, .btn_top:visited {
     color: #fff!important;
     border-bottom: 0px solid #14629e;
     margin-top: 28px;
-    box-shadow: 0px 0px 21px rgba(20, 98, 158, 0.68);
+    /* box-shadow: 0px 0px 16px rgba(20, 98, 158, 0.68); */
+}
+
+.btn_top:focus {
+    color: #fff!important;
 }
 
 
@@ -809,7 +803,6 @@ font-weight: 400;
     padding: 13px 30px;
     font-weight: 400;
     border-bottom: 3px solid #14629e;
-    box-shadow: 0px 5px 16px rgba(20, 98, 158, 0.68);
     float: left;
     margin-right: 30px;
     font-size: 18px;
@@ -820,7 +813,6 @@ font-weight: 400;
      color: #fff!important;
     border-bottom: 0px solid #14629e;
     margin-top: 27px;
-    box-shadow: 0px 0px 16px rgba(20, 98, 158, 0.68);
 }
 
 .modal_input {
