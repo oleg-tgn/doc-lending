@@ -849,13 +849,23 @@ font-weight: 400;
 }
 
 
-
-.row-faq {
-    padding: 100px 0px;
-    display: block;
+#thanks {
+    padding: 50px 0px;
     background: url('../img/vbackground.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.quastionandcommunication {
+    background: url('../img/vbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.row-faq {
+    padding: 50px 0px;
+    display: block;
 }
 
 .row-faq h2 {
