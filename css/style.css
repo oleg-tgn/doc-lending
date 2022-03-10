@@ -395,13 +395,12 @@ h1 span {
 }
 
 .btn_top {
-    background-color: #3099e9;
+    background-color: rgba(48, 153, 233, 1);
     font-size: 21px;
     font-weight: 500;
     color: #fff;
     padding: 19px 55px;
     border: none;
-    border-bottom: 4px solid #14629e;
     margin-top: 24px;
 }
 
@@ -409,8 +408,7 @@ h1 span {
 .btn_top:hover, .btn_top:active, .btn_top:visited {
     color: #fff!important;
     border-bottom: 0px solid #14629e;
-    margin-top: 28px;
-    /* box-shadow: 0px 0px 16px rgba(20, 98, 158, 0.68); */
+    background-color: rgba(48, 153, 233, 0.9);
 }
 
 .btn_top:focus {
@@ -802,7 +800,6 @@ font-weight: 400;
 .modal-body .btn_top {
     padding: 13px 30px;
     font-weight: 400;
-    border-bottom: 3px solid #14629e;
     float: left;
     margin-right: 30px;
     font-size: 18px;
@@ -812,7 +809,6 @@ font-weight: 400;
 .modal-body .btn_top:hover, .modal-body .btn_top:focus, .modal-body .btn_top:active, .modal-body .btn_top:visited {
      color: #fff!important;
     border-bottom: 0px solid #14629e;
-    margin-top: 27px;
 }
 
 .modal_input {
