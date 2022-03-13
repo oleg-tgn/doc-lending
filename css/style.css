@@ -700,27 +700,44 @@ margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgb(255, 154, 37);
 }
 
-
-.row3 {
-    padding: 50px 0px;
-    background: url('../img/bg2.jpg');
-    background-size: cover;
-}
-
-.row3 h2 {
+.guarantee__title {
     text-align: left;
-    color: #fff;
+    margin-top: 0;
 }
 
-#kuz {
-    position: relative;
-}
-
-#kuz img {
-    margin-top: 50px;
+.guarantee__image {
+    display: flex;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background: url('../img/team.jpg'); 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -40px;    
+}
+
+@media (max-width: 992px) {
+    .guarantee__image {        
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .guarantee__title {
+        text-align: left;
+    }
+}
+
+@media (min-width: 993px) {
+    .guarantee__row {
+        display: flex;
+    }
+}
+
+.guarantee__list {
+    padding-left: 1.5em;
+}
+
+.row3 {
+    padding: 100px 0px;
 }
 
 .kuz_label {
@@ -746,14 +763,13 @@ font-weight: 400;
 }
 
 .care_p1 {
-        margin-top: 25px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 18px;
     font-weight: 500;
-    color: #fff
 }
 
 .care_p1 a {
-    color: #fff;
+    color: inherit;
     text-decoration: underline;
 }
 
@@ -836,16 +852,16 @@ font-weight: 400;
     float: none;
 }
 
-
-#thanks {
-    padding: 50px 0px;
+.vbackground {
     background: url('../img/vbackground.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+}
+#thanks {
+    padding: 50px 0px;
 }
 
-.quastionandcommunication {
-    background: url('../img/vbackground.png');
+.quastionandcommunication {   
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1123,7 +1139,7 @@ font-size: 16px;
 
 
 .row-footer {
-    padding: 20px 0px 50px;
+    padding: 50px 0px 50px;
 }
 
 .row-footer h2 {
@@ -1390,11 +1406,6 @@ h2 {
     width: 300px;
 }
 
-
-
-#kuz {
-    display: none;
-}
 
 .row3 {
     padding: 50px 0px 50px;
@@ -1698,15 +1709,6 @@ h1 {
     width: 60px;
     margin-left: -60px;
     background-size: 25px;
-}
-
-
-#kuz {
-    display: none;
-}
-
-.row3 h2 {
-    text-align: center;
 }
 
 .row3 {
