@@ -1498,7 +1498,7 @@ body.cbk-body-mobile div.map-canvas {
     margin: auto;
     padding: 0 40px !important;
     text-align: left;
-    width: 260px !important;
+    width: 290px !important;
     -webkit-box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-sizing: content-box !important;
@@ -1521,9 +1521,9 @@ body.cbk-body-mobile div.map-canvas {
 .cbk-window .cbk-form .cbk-form-title,
 .cbk-window .cbk-form .cbk-form-title span.cbk-call-timeout,
 .cbk-window .cbk-form .cbk-form-title span.cbk-visitor-name-to-delete {
-    font-size: 20px !important;
-    line-height: 23px !important;
-    margin: 0 0 7px !important;
+    font-size: 18px !important;
+    /* line-height: 23px !important; */
+    margin: 0 0 14px !important;
 }
 .cbk-window .cbk-form .cbk-form-title a {
     background: none !important;
@@ -1532,13 +1532,14 @@ body.cbk-body-mobile div.map-canvas {
 }
 .cbk-window .cbk-form .cbk-form-title small {
     display: inline-block;
-    font-size: 70% !important;
+    font-size: 100% !important;
     padding: 0;
 }
 .cbk-window .cbk-form .cbk-form-title small .cbk-visitor-name-to-delete,
 .cbk-window .cbk-form .cbk-form-title small a {
     font-size: 100% !important;
 }
+
 .cbk-window .cbk-form .cbk-input,
 .cbk-window .cbk-form .cbk-input:focus,
 .cbk-window .cbk-form .cbk-input:hover {
@@ -1550,23 +1551,23 @@ body.cbk-body-mobile div.map-canvas {
 .cbk-window .cbk-form .cbk-input:focus,
 .cbk-window .cbk-form .cbk-input:hover,
 .cbk-window .cbk-form .cbk-select {
-    background-color: #d0d0d0 !important;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #fff !important;
+    border: 1px solid #3099e9;
     border-radius: 4px !important;
     -webkit-border-radius: 4px !important;
     box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-shadow: none !important;
     float: none !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     font-weight: 300 !important;
     height: auto !important;
     left: auto !important;
     outline: 0 !important;
     top: auto !important;
-    padding: 6px 10px !important;
+    padding: 15px 10px !important;
     position: relative;
-    width: 230px !important;
+    width: 262px;
     zoom: 1;
     display: inline-block !important;
 }
@@ -1577,11 +1578,11 @@ body.cbk-body-mobile div.map-canvas {
     visibility: visible;
 }
 .cbk-window .cbk-form .cbk-select.cbk-deferred-date {
-    width: 107px !important;
+    width: 125px !important;
     opacity: 1;
 }
 .cbk-window .cbk-form .cbk-select.cbk-deferred-time {
-    width: 72px !important;
+    width: 85px !important;
     opacity: 1;
 }
 .cbk-window .cbk-form .cbk-select option {
@@ -1589,7 +1590,7 @@ body.cbk-body-mobile div.map-canvas {
 }
 .cbk-window .cbk-form .cbk-deferred div {
     display: inline-block !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     margin: 0 7px;
 }
 .cbk-window .cbk-form .cbk-input-hidden {
@@ -1609,32 +1610,32 @@ body.cbk-body-mobile div.map-canvas {
 .cbk-window .cbk-form .cbk-input-checkbox {
     float: left;
     height: 13px !important;
-    margin: 2px 5px 0 0 !important;
+    margin: 15px 5px 0 0 !important;
     outline: none;
-    width: 13px !important;
+    width: 300px !important;
     min-width: 13px !important;
 }
 .cbk-window .cbk-form .cbk-button {
     background: rgba(48, 153, 233, 1);
-    border: none;
-    border-radius: 4px !important;
+    border: 1px solid #3099e9;
+    border-radius: 5px !important;
     -webkit-border-radius: 4px !important;
     box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     color: hsla(0, 0%, 100%, 0.9) !important;
     cursor: pointer !important;
     float: none !important;
-    font-size: 16px !important;
-    font-weight: 300 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
     height: auto !important;
     left: auto !important;
-    margin: 0 0 7px !important;
+    margin: 15px 0 15px !important;
     outline: 0 !important;
     overflow: hidden !important;
     top: auto !important;
-    padding: 10px !important;
+    padding: 15px 26px !important;
     position: relative;
-    width: 230px !important;
+    width: 230px;
     zoom: 1;
 }
 
@@ -1765,7 +1766,7 @@ body.cbk-body-mobile div.map-canvas {
 }
 .cbk-window .cbk-form .cbk-button.cbk-button-lg {
     font-size: 20px !important;
-    padding: 12px 10px !important;
+    padding: 15px 26px !important;
 }
 .cbk-window .cbk-form .cbk-button:hover {
     background-color: rgba(48, 153, 233, 0.9);
@@ -8168,7 +8169,7 @@ body > div.ws-chat > div.ws-chat-container.ws-chat-round > div.ws-chat-copyright
     .cbk-window.cbk-window-bottom:not(.cbk-window-modal):not(.cbk-window-onexit) .cbk-form-action .cbk-button {
         margin: 0 0 0 10px !important;
         padding: 9px 19px 10px 17px !important;
-        width: auto !important;
+        width: auto;
         font-size: 16px !important;
     }
     .cbk-window.cbk-window-bottom:not(.cbk-window-modal):not(.cbk-window-onexit) .copyright-content {
@@ -8938,4 +8939,24 @@ img.ws-copyright-img-min {
 }
 .ws-chat-body-content .ws-chat-quick-messages-group {
     float: left;
+}
+
+.cbk-window .cbk-background {
+    background-color: #fff !important;
+}
+
+.cbk-forms {
+    background-color: #fff !important;
+}
+
+#cbkPhoneDeferredInput {
+    background-color: #fff !important;
+}
+
+#cbkCallDeferredDate {
+    background-color: #fff !important;
+}
+
+#cbkCallDeferredTime {
+    background-color: #fff !important;
 }
