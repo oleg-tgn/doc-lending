@@ -123,9 +123,9 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
-    font-family: Geometria, sans-serif;
+    letter-spacing: .05em;
 }
 
 
