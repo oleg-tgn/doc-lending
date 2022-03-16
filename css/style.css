@@ -402,6 +402,7 @@ h1 span {
     padding: 19px 55px;
     border: none;
     margin-top: 24px;
+    border-radius: 5px;
 }
 
 
@@ -831,13 +832,12 @@ font-weight: 400;
     font-size: 18px;
     font-weight: 400;
     padding: 15px 26px;
-    border-radius: 100px;
+    border-radius: 5px;
     border: 1px solid #3099e9;
     width: 300px;
     float: left;
     outline: none;
     margin-top: 15px;
-    box-shadow: inset 1px 3px 12px rgba(51, 51, 51, 0.23);
 }
 
 .modal_form_search {
@@ -1540,22 +1540,6 @@ h1 {
 .sp .btn_top {
     margin-top: 90px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
