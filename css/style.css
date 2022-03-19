@@ -2,7 +2,7 @@
 
 
 body {
-    background: #fbfbfb;
+    /* background: #fbfbfb; */
     font-family: 'PTSans', sans-serif;
 }
 
@@ -193,14 +193,12 @@ body {
 }
 
 .top_desc {
-     font-size: 12px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 400;
-    width: 330px;
-    float: left;
-    margin-left: 32px;
-    border-left: 1px solid #ebebeb;
-    padding: 8px 0px 8px 32px;
+    width: 500px;
+    float: left;   
+    padding: 8px 0px 8px 0;
     margin-bottom: 0px;
 }
 
@@ -255,7 +253,6 @@ body {
 }
 
 .top_phone {
-    width: 245px;
     float: right;
     text-align: center;
 }
@@ -297,8 +294,11 @@ margin-bottom: 0px;
 
 .serviceMenu {
     width: 100%;
-    height: 40px;
-    background: #292a2d;
+    padding: 10px 0;
+    background: rgb(248, 248, 250);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .serviceMenuDropdown {
@@ -306,15 +306,19 @@ margin-bottom: 0px;
     width: 16.6%;
     text-align: center;
 }
-.smLink {
-    width: 16.6%;
-    float: left;
+.smLink {    
     text-align: center;
     line-height: 40px;
-    color: #fff!important;
+    color: #333!important;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
+}
+
+.serviceMenu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -358,10 +362,9 @@ margin-bottom: 0px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 400;
     margin-top: 25px;
-    text-transform: uppercase;
     padding-right: 50px;
 }
 
@@ -375,6 +378,7 @@ h1 span {
     font-weight: 400;
     padding-right: 10px;
 }
+
 
 .glav_sert {
     margin-left: -20px;
@@ -402,7 +406,7 @@ h1 span {
     padding: 19px 55px;
     border: none;
     margin-top: 24px;
-    border-radius: 5px;
+    border-radius: 0;    
 }
 
 
@@ -814,7 +818,8 @@ font-weight: 400;
 
 
 
-.modal-body .btn_top {
+.modal-body .btn_top,
+.btn_top--call {
     padding: 13px 30px;
     font-weight: 400;
     float: left;
@@ -832,7 +837,7 @@ font-weight: 400;
     font-size: 18px;
     font-weight: 400;
     padding: 15px 26px;
-    border-radius: 5px;
+    border-radius: 0;
     border: 1px solid #3099e9;
     width: 300px;
     float: left;
@@ -2245,7 +2250,7 @@ ol:not(.list-unstyled) {
 ol:not(.list-unstyled) > li:before {
     counter-increment: myCounter;
     content: counter(myCounter) ".";
-    color: #02709d;
+    color: rgba(55,140,241,1);
     background: 0 0;
     font-weight: 600;
     font-size: 18px;
@@ -2403,4 +2408,20 @@ ol:not(.list-unstyled) > li:before {
 
 .ws-chat .ws-chat-btn-container.ws-chat-btn-mini-hover.ws-chat-btn-round.ws-chat-btn-logo-yes.ws-chat-btn-attach {
     background: rgba(28,153,233,1)!important;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.navbar-top-wrap {
+    /* background: rgb(248, 248, 250); */
+}
+
+.navbar-default {
+    background: rgb(248, 248, 250);
+}
+
+.serviceMenu__logo {
+    width: 200px;
 }
