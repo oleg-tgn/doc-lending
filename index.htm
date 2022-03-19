@@ -43,71 +43,37 @@
 
   </head>
   <body>
-
-
-<nav class="navbar navbar-default navbar-fixed-top out mainNav">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="navLogo visible-xs"><a href="index.php.html"><img src="services/img/logo.svg"></a></div>
-      <a class="navbar-brand visible-xs" href="tel:+74952041287"><img class="navPhone" src="services/img/phone.svg"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-      <div class="mainNavLogo hidden-xs"><a href="index.php.html"><img src="services/img/logo.svg"></a></div>
-      <ul class="nav navbar-nav">
-        <li class="dropdown"><a href="#sertification-types" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Сертификация</b></a></li>
-        <li class="dropdown"><a href="#thanks" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Благодарности</b></a></li>
-        <li class="dropdown"><a href="#guarantee" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Преимущества</b></a></li>
-        <li class="dropdown"><a href="#faq" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Вопросы</b></a></li>        
-        <li class="dropdown"><a href="#contacts" role="button" aria-haspopup="true" aria-expanded="false" class="teamHref"><b>Контакты</b></a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-
-
-
-
-    <div class="row-fluid row1">
-      <div class="container cont1">
-        <a class="logo" href="index.php.html"><img alt="СК Сертификат" src="img/logo.svg"></a>
+    <div class="navbar-top-wrap">
+      <div class="container cont1">        
         <p class="top_desc">ОФОРМЛЕНИЕ ВСЕХ ВИДОВ РАЗРЕШИТЕЛЬНЫХ ДОКУМЕНТОВ НА <span>ЛЮБЫЕ</span> ИЗДЕЛИЯ, СЫРЬЕ И ОБОРУДОВАНИЕ</p>
-        <div class="top_mail">
-            <a class="mailLink" href="mailto:info@sk-sertifikat.ru"><img src="img/mail.svg" alt="">info@sk-sertifikat.ru</a><br>
-            <a class="whatsappLink" href="https://api.whatsapp.com/send/?phone=79266968526&text=Здравствуйте%2C+хочу+получить+консультацию&app_absent=0" target="_blank"><img src="img/whatsapp.svg" alt="">Написать в WhatsApp</a>
-        </div>
-        <div class="top_phone">
-          <p class="phone_online"><span style='color: #2bfa43'>⚫</span> Менеджеры онлайн</p>
-          <p class="phone_number"><a href="tel:+74952041287">+7 (495) 20-412-87</a></p>
-          <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p>
+        <!-- <div class="top_mail">
+            <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
+            <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a> -->
+        <!-- </div> --> 
+        <div class="top_phone">   
+          <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
+          <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a>      
+          <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
         </div>
       </div>
+    </div>
       <div class="serviceMenu">
         <div class="container">
-          <a href="#sertification-types" class="smLink teamHref">Сертификация</a>,
-          <a href="#thanks" class="smLink teamHref">Благодарности</a>          
-          <a href="#guarantee" class="smLink teamHref">Преимущества</a>
-          <a href="#faq" class="smLink teamHref">Вопросы</a>                    
-          <a href="#contacts" class="smLink teamHref">Контакты</a>
+          <div class="serviceMenu__list">
+            <a href="index.php.html" class="serviceMenu__logo-link"><img src="services/img/logo.svg" class="serviceMenu__logo"></a>
+            <a href="#sertification-types" class="smLink teamHref">Сертификация</a>
+            <a href="#thanks" class="smLink teamHref">Благодарности</a>          
+            <a href="#guarantee" class="smLink teamHref">Преимущества</a>
+            <a href="#faq" class="smLink teamHref">Вопросы</a>                    
+            <a href="#contacts" class="smLink teamHref">Контакты</a>
+          </div>
         </div>
       </div>
-
      
       
       <div class="container cont1_1">
         <div class="col-md-7 no-pad">
-          <h1>ПОМОЩЬ В СЕРТИФИКАЦИИ <span>ВАШЕЙ</span> ПРОДУКЦИИ «ПОД КЛЮЧ»</h1>
+          <h1>Помощь в оформлении cертификатов любой сложности от 1 дня</h1>
           <p class="first_desc">За 1 день в г. Москва <span>сертифицируем все виды продукции</span> с&nbsp;внесением в&nbsp;реестр ФСА и гарантией легитимности</p>
           <div class="col-xs-4 utp">
             <img alt="СК Сертификат" src="img/icons/utp_1.png">
@@ -124,11 +90,10 @@
           <div class="cl"></div>
           <button class="btn btn_top anim-btn" data-toggle="modal" data-target="#modalCalc">Рассчитать стоимость за 7 минут</button>
         </div>
-        <div class="col-md-5 no-pad">
+        <div class="col-md-5 no-pad glav_sert__wrap">
           <img alt="СК Сертификат" class="glav_sert" src="img/sert.png">
         </div>
       </div>
-    </div>
 
     <section class="container-fluid bg-slide-container" id="sertification-types">
       <div class="section">        
@@ -1059,7 +1024,7 @@ if (window.call_value != undefined && window.call_value != null && window.call_v
                     </div>
                   <div class="cl"></div>
                     <input type="hidden" name="source" value="Форма зявки на перезвон">
-                    <button type="submit" class="btn btn_top" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
+                    <button type="submit" class="btn btn_top btn_top--call" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
                     </form>
                 </div>
           </div>
