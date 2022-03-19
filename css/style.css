@@ -1198,7 +1198,15 @@ font-size: 16px;
     text-align: center;
 }
 
+#map {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 
+#map:hover {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+}
 
 #map .btn_top {
     float: none;
@@ -1759,10 +1767,6 @@ h1 {
 .sp h3 {
     font-size: 20px;
 }
-
-
-
-
 
 }
 
@@ -2349,4 +2353,14 @@ ol:not(.list-unstyled) > li:before {
 
 .footer_link:focus {
     color: #fff;
+}
+
+.call_link {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.call_link:hover {
+    text-decoration: none;
+    font-weight: 400;
 }
