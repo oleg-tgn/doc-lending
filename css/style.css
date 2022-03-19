@@ -852,11 +852,12 @@ font-weight: 400;
     float: none;
 }
 
-.vbackground {
+/* .vbackground {
     background: url('../img/vbackground.png');
     background-repeat: no-repeat;
     background-size: cover; 
-}
+} */
+
 #thanks {
     padding: 50px 0px;
 }
@@ -2363,4 +2364,43 @@ ol:not(.list-unstyled) > li:before {
 .call_link:hover {
     text-decoration: none;
     font-weight: 400;
+}
+
+.algorithm_title {
+    margin-top: 50px;
+}
+
+.algorithm_row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.algorithm_step {
+    width: calc(20%);
+}
+
+.algorithm_img {
+    width: 45%;
+}
+
+.algorithm_arrow {
+    /* margin: auto 0; */
+    margin-top: 20px;
+    height: 43px;
+    width: 40px;
+}
+
+.algorithm_text {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.ws-chat .ws-chat-btn-container.ws-chat-btn-mini-hover.ws-chat-btn-round.ws-chat-btn-logo-yes.ws-chat-btn-attach {
+    background: rgba(28,153,233,1)!important;
 }

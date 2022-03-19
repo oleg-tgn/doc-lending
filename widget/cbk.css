@@ -5542,7 +5542,7 @@ body > div.ws-chat > div.ws-chat-container.ws-chat-round > div.ws-chat-copyright
     padding: 10px 14px;
     -webkit-font-smoothing: subpixel-antialiased !important;
     -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;  
 }
 .ws-chat .ws-chat-btn-rotate .ws-btn-title {
     -webkit-backface-visibility: visible !important;
@@ -8968,3 +8968,4 @@ img.ws-copyright-img-min {
 #cbkCallDeferredTime option {
     background-color: #fff !important;
 }
+
