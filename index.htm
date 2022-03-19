@@ -503,16 +503,6 @@
 <div id="map"><script type='text/javascript' charset='utf-8' async="" src='services/constructor/1.0/js/index.htm?um=constructor%3A4f1d5e24d5e73cbb7e1eee1c6c551267f4f38692e749633975c729d57addf467&amp;width=100%25&amp;height=350&amp;lang=ru_RU&amp;scroll=false'></script></div>
 
 
-  <div class="row-fluid row-foot">
-    <div class="container">
-      <p class="foot_p">© ООО «CК Сертификат», 2009-2020 ОГРН: 1157746788385</p>
-      <p class="foot_p foot_p_blue" data-toggle="modal" data-target="#modalPolitic">Политика конфиденциальности</p>
-      <p class="foot_p">Информация на сайте не является публичной офертой</p>
-      <p class="foot_p2">Сведения о посредничестве (помощи в получении): Мы являемся посредниками компаний ООО «Группа Промышленной Безопасности», ООО «АМС», а так же оказываем содействие в подборе аккредитованных органов по сертификации.</p>
-    </div>
-  </div>
-
-
 <!-- Modal -->
 <div class="modal fade" id="modalCalc" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
@@ -730,7 +720,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
     <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script>
-    <!-- <script type="text/javascript" src="widget/cbk.js?wcb_code=98ca9014dab9ee720df8e55f0190a820" charset="UTF-8" async=""></script> -->
+    <script type="text/javascript" src="widget/cbk.js?wcb_code=98ca9014dab9ee720df8e55f0190a820" charset="UTF-8" async=""></script> 
     <script> $(document).ready(function() { $('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script> <script> $(document).ready(function() { $('[type="submit"]').click(function() { if(typeof wsKiller !== 'undefined'){ wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script>
 
     <script> jQuery(document).ready(function() { jQuery('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit(jQuery(this).closest('form')); } })}) </script>
@@ -739,7 +729,7 @@
     <link rel="stylesheet" href="widget/cbk.css">
     <link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
 
-<!-- <script>
+<script>
     (function( $ ) {
         var myCall = setInterval(envyZvonok);
         function envyZvonok() {
@@ -761,10 +751,9 @@
             }
         }
     })(jQuery);
-</script> -->
+</script> 
 
-
-    <!-- <link rel="stylesheet" href="css/intlTelInput.css">
+     <link rel="stylesheet" href="css/intlTelInput.css">
     <script src="js/intlTelInput.js"></script>
     <script>
       var elements = document.querySelectorAll('.phoneClass');
@@ -786,7 +775,7 @@
         utilsScript: "https://www.sk-sertifikat.ru/js/utils.js",
       });
       });
-    </script> -->
+    </script> 
 
 
 
@@ -950,44 +939,44 @@
 	});
 
 
-// window.ws_OnCallbackOnlineCall = window.ws_OnCallbackDeferredCall = function(data) {
-// var _ctreq = function(data, sid = 20947, nid = 7) {
-// var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
-// post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
-// url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
-// request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
-// }
-// try{
-// fio = (data.name != undefined && data.name!=null)?data.name:'';
-// phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
-// email = (data.email != undefined && data.email!=null)?data.email:'';
-// if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
-// 	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
-// } else {
-// 	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email});
-// }
-// } catch(e) {console.log(e)}
-// }
+window.ws_OnCallbackOnlineCall = window.ws_OnCallbackDeferredCall = function(data) {
+var _ctreq = function(data, sid = 20947, nid = 7) {
+var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
+post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
+url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
+request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
+}
+try{
+fio = (data.name != undefined && data.name!=null)?data.name:'';
+phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
+email = (data.email != undefined && data.email!=null)?data.email:'';
+if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
+	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
+} else {
+	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email});
+}
+} catch(e) {console.log(e)}
+}
 
 
-// window.ws_OnChatOfflineMessage = window.ws_OnChatVisitorIntroduced = function(data) {
-// var _ctreq = function(data, sid = 20947, nid = 7) {
-// var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
-// post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
-// url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
-// request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
-// }
-// try{
-// fio = (data.name != undefined && data.name!=null)?data.name:'';
-// phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
-// email = (data.email != undefined && data.email!=null)?data.email:'';
-// if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
-// 	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
-// } else {
-// 	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email});
-// }
-// } catch(e) {console.log(e)}
-// }
+window.ws_OnChatOfflineMessage = window.ws_OnChatVisitorIntroduced = function(data) {
+var _ctreq = function(data, sid = 20947, nid = 7) {
+var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
+post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
+url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
+request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
+}
+try{
+fio = (data.name != undefined && data.name!=null)?data.name:'';
+phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
+email = (data.email != undefined && data.email!=null)?data.email:'';
+if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
+	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
+} else {
+	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email});
+}
+} catch(e) {console.log(e)}
+}
 
 
 
@@ -996,5 +985,175 @@
 	</script>
 
     <script type="text/javascript" src="./js/bg_slide.js"></script>
+
+
+
+    
+
+    <footer class="bg">
+
+      <section class="footer-top mt-4">
+        <div class="feedback_block">
+            <div class="container px-0 px-xl-3">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="footer-notice d-flex flex-column align-items-center align-items-xl-start w-100">
+                                <div class="img position-relative pb-0 pt-3 pb-xl-3">
+                                        <img src="/img/sert.png"
+                                             alt="Сертификация вашей продукции"
+                                             title="Сертификация вашей продукции"
+                                             class="img-fluid"/>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+          <div class="feedback-c mt-lg-n5  bg footer_popup">
+            <div>
+              <h3 class="footer_textpopup">Заказать звонок</h3>
+              <p class="footer_textpopup">Заполните форму, и мы перезвоним Вам:</p>
+                <form action="mail.php" method="POST" class="modal_form footer_form">
+                    <input class="modal_input footer_inputpopup" type="text" name="name" placeholder="Введите имя">
+                    <div class="cl"></div>
+                    <div class="iti iti--allow-dropdown footer_flag">
+                      <div class="iti__flag-container">
+                        <div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" tabindex="0">
+                          <div class="iti__arrow"></div>
+                        </div>
+                      </div>
+                      <input class="modal_input phoneClassFooter footer_inputpopup" type="tel" name="phone" placeholder="Введите телефон" required="" autocomplete="off" data-intl-tel-input-id="1">
+                    </div>
+                  <div class="cl"></div>
+                    <input type="hidden" name="source" value="Форма зявки на перезвон">
+                    <button type="submit" class="btn btn_top" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
+                    </form>
+                </div>
+          </div>
+
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+      var elements = document.querySelectorAll('.phoneClassFooter');
+      elements.forEach(function(el, index) {
+      window.intlTelInput(el, {
+        autoHideDialCode: false,
+        dropdownContainer: document.body,
+        initialCountry: "auto",
+        geoIpLookup: function(callback) {
+          $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "";
+            callback(countryCode);
+          });
+        },
+        nationalMode: false,
+        onlyCountries: ['ru', 'by', 'ua', 'kz'],
+        placeholderNumberType: "MOBILE",
+        preferredCountries: ['ru'],
+        utilsScript: "https://www.sk-sertifikat.ru/js/utils.js",
+      });
+      });
+    </script> 
+
+
+
+
+
+    <section class="footer-bottom">
+      
+        <div class="bottom-menu-wrapper">
+          <div class="container">        
+            <ul class="bottom-menu list-unstyled py-2">
+              <li class="bottom-menu__item">
+                <a href="#sertification-types" class="bottom-menu__link">Сертификация</a>
+              </li>
+              <li lass="bottom-menu__item">
+                <a href="#thanks" class="bottom-menu__link">Благодарности</a>
+              </li>
+              <li>
+                <a href="#guarantee" class="bottom-menu__link">Преимущества</a>
+              </li>
+              <li lass="bottom-menu__item">
+                <a href="#faq" class="bottom-menu__link">Вопросы</a>
+              </li>
+              <li lass="bottom-menu__item">
+                <a href="#contacts" class="bottom-menu__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="container pt-4 pb-4 pb-xl-5">
+       
+
+        <div class="col-12">
+          <div class="row">
+
+            <div class="col-12 col-lg-4">
+              <a class="footer_logo" href="index.php.html">
+                <img alt="СК Сертификат" src="/services/img/logo.svg" width="200">
+              </a>
+            </div>
+
+                        
+            <div class="col-12 col-lg-4">
+              <!-- <div class="title">
+                  <div class="footer_subtitle position-relative d-inline-flex flex-column">
+                      Центральный офис
+                  </div>
+              </div> -->
+
+              <div class="central-office flex-wrap mx-n3 d-lg-flex py-2 flex-column flex-lg-row text-center text-lg-left footer_address">
+                  <li class="footer_list">Телефон:
+                    <a href="tel:+7 (904) 343-35-44" class="footer_link">
+                      <span class="ml-sm-1 d-block d-sm-inline text-center pb-3 pb-lg-0">+7 (904) 343-35-44</span>
+                    </a>
+                  </li>
+                  <li class="footer_list">E-mail:
+                    <a href="mailto:info_alfasert@mail.ru" data-type="email" class="footer_link">
+                      <span class="ml-sm-1 d-inline text-center">
+                        info_alfasert@mail.ru                                    
+                      </span>
+                    </a>
+                  </li>
+               
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <!-- <div class="title">
+                  <div class="footer_subtitle position-relative d-inline-flex flex-column">
+                      Центральный офис
+                  </div>
+              </div> -->
+
+              <div class="central-office flex-wrap mx-n3 d-lg-flex py-2 flex-column flex-lg-row text-center text-lg-left footer_address">
+                  
+                  <li class="footer_list footer_list">
+                    <span class="ml-sm-1 d-inline text-center pb-3 pb-lg-0" data-type="address">Ростовская обл., г. Таганрог ул.&nbsp;Плотникова, д. 94а</span>
+                  </li>
+                  
+          
+                <div class="footer_list descr d-block d-lg-none">
+                  ООО «Альфа-Сертификат»
+                </div>
+
+              </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+</footer>
+
+
   </body>
 </html>
