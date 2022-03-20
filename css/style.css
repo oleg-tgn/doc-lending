@@ -202,6 +202,10 @@ body {
     margin-bottom: 0px;
 }
 
+.top_desc--bottom {
+    color: #fff;
+}
+
 .top_desc span {
     font-weight: 600;
 }
@@ -209,19 +213,27 @@ body {
 .top_mail {
     font-weight: 600;
     font-size: 15px;
-    color: #333!important;
+    color: #333;
     padding: 6px 0px 6px 60px;
     float: left;
 }
 
 .mailLink {
     position: relative;
-    color: #333!important;
+    color: #333;
     text-decoration: none;
     padding-left: 24px;
-    float: left;
+    float: right;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+
+.mailLink--bottom,
+.mailLink--bottom:hover,
+.mailLink--bottom:focus,
+.mailLink--bottom:active {
+    font-size: 14px;
+    color: #fff;    
 }
 
 .mailLink img {
@@ -252,9 +264,21 @@ body {
     margin-top: -7px;
 }
 
+.top_address {
+    float: right;
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.top_address--bottom {
+    font-size: 14px;    
+    color: #fff;
+}
+
 .top_phone {
     float: right;
-    text-align: center;
+    text-align: right;
 }
 
 .phone_online {
@@ -742,7 +766,7 @@ margin-bottom: 20px;
 }
 
 .row3 {
-    padding: 100px 0px;
+    padding: 100px 0px 0;
 }
 
 .kuz_label {
@@ -863,10 +887,6 @@ font-weight: 400;
     background-size: cover; 
 } */
 
-#thanks {
-    padding: 50px 0px;
-}
-
 .quastionandcommunication {   
     background-repeat: no-repeat;
     background-size: cover;
@@ -874,11 +894,12 @@ font-weight: 400;
 
 
 .row-faq {
-    padding: 50px 0px;
+    padding: 100px 0 0;
     display: block;
 }
 
 .row-faq h2 {
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -1145,10 +1166,11 @@ font-size: 16px;
 
 
 .row-footer {
-    padding: 50px 0px 50px;
+    padding: 100px 0px 100px;
 }
 
 .row-footer h2 {
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -1162,6 +1184,7 @@ font-size: 16px;
     text-align: center;
     font-size: 18px;
     line-height: 34px;
+    margin-bottom: 0;
 }
 
 .footer_item span {
@@ -1580,6 +1603,10 @@ h1 {
     width: 190px;
     margin: 0px auto;
     float: none;
+}
+
+.mailLink.mailLink--bottom {
+    color: #fff!important;
 }
 
 .whatsappLink {
@@ -2328,14 +2355,14 @@ ol:not(.list-unstyled) > li:before {
     display: flex; 
     flex-direction: row; 
     justify-content: space-between; 
-    color: color; 
     margin: 0;
 }
 
 .bottom-menu__link,
 .bottom-menu__link:hover {
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .footer_list {
@@ -2371,8 +2398,12 @@ ol:not(.list-unstyled) > li:before {
     font-weight: 400;
 }
 
+.algorithm {
+    padding-top: 100px;
+}
+
 .algorithm_title {
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 .algorithm_row {
@@ -2410,6 +2441,10 @@ ol:not(.list-unstyled) > li:before {
     background: rgba(28,153,233,1)!important;
 }
 
+.panel-group {
+    margin-bottom: 0;
+}
+
 .panel-group .panel {
     border-radius: 0;
 }
@@ -2424,4 +2459,8 @@ ol:not(.list-unstyled) > li:before {
 
 .serviceMenu__logo {
     width: 200px;
+}
+
+.sertification-types-space {
+    padding: 60px 0 0;
 }
