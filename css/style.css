@@ -2176,7 +2176,7 @@ footer .footer-top .feedback_block .footer-notice .under_title {
 }
 
 .feedback-c button.btn-arrow span:before {
-    background: url(/../img/footer/arrow-white.png) no-repeat;
+    background: url(../img/footer/arrow-white.png) no-repeat;
 }
 
 .btn.btn-arrow {
@@ -2221,7 +2221,7 @@ footer .footer-top .feedback_block .footer-notice .under_title {
     width: 30px;
     height: 7px;
     left: -16px;
-    background: url(/../img/footer/arrow-red.png) no-repeat;
+    background: url(../img/footer/arrow-red.png) no-repeat;
     -webkit-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
@@ -2257,7 +2257,7 @@ ol:not(.list-unstyled) li {
 ul:not(.list-unstyled) li:before,
 ol:not(.list-unstyled) li:before {
     content: '';
-    background: url(/../img/img/footer/ul.svg) no-repeat left top;
+    background: url(../img/img/footer/ul.svg) no-repeat left top;
     position: absolute;
     top: 6px;
     height: 14px;
