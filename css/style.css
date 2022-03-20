@@ -318,7 +318,7 @@ margin-bottom: 0px;
 
 .serviceMenu {
     width: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
     background: rgb(248, 248, 250);
     position: sticky;
     top: 0;
@@ -2462,5 +2462,5 @@ ol:not(.list-unstyled) > li:before {
 }
 
 .sertification-types-space {
-    padding: 60px 0 0;
+    padding: 70px 0 0;
 }
