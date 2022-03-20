@@ -1983,7 +1983,7 @@ footer .block_button_footer a:hover .arrow img {
 }
 
 footer.bg {
-    background-image: url(/../img/footer/bg-footer.jpg);
+    background-image: url(../img/footer/bg-footer.jpg);
 }
 
 footer .title {
@@ -2034,7 +2034,7 @@ footer .footer-top .feedback_block .footer-notice .under_title {
 }
 
 .feedback-c.bg {
-    background-image: url(/../img/footer/feedback-c.jpg);
+    background-image: url(../img/footer/feedback-c.jpg);
     background-repeat: no-repeat;
     background-color: #131416;
     background-position: 0 0;
@@ -2094,7 +2094,7 @@ footer .footer-top .feedback_block .footer-notice .under_title {
 
 .feedback-c .file-upload span:before {
     content: "";
-    background-image: url(/../img/footer/clip.png);
+    background-image: url(../img/footer/clip.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 13px;
@@ -2257,7 +2257,7 @@ ol:not(.list-unstyled) li {
 ul:not(.list-unstyled) li:before,
 ol:not(.list-unstyled) li:before {
     content: '';
-    background: url(../img/img/footer/ul.svg) no-repeat left top;
+    background: url(../img/footer/ul.svg) no-repeat left top;
     position: absolute;
     top: 6px;
     height: 14px;
