@@ -2464,3 +2464,7 @@ ol:not(.list-unstyled) > li:before {
 .sertification-types-space {
     padding: 70px 0 0;
 }
+
+.textcanvas_text {
+    font-size: 18px;
+}
