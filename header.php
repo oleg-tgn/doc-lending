@@ -7,7 +7,7 @@
         <!-- </div> --> 
 
         <div class="top_address">   
-          Ростовская обл., г. Таганрог<br> ул. Плотникова, д. 94а
+          Ростовская обл., г. Таганрог<br> ул. Москатова, д. 15
           <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
         </div>
 
@@ -21,7 +21,7 @@
       <div class="serviceMenu">
         <div class="container">
           <div class="serviceMenu__list">
-            <a href="/" class="serviceMenu__logo-link"><img src="/services/img/logo.svg" class="serviceMenu__logo"></a>
+            <a href="/" class="serviceMenu__logo-link"><img src="/img/logogrey.png" class="serviceMenu__logo"></a>
             <a href="/#sertification-types" class="smLink teamHref">Сертификация</a>
             <a href="#algorithm" class="smLink teamHref">Алгоритм</a>
             <a href="#guarantee" class="smLink teamHref">Преимущества</a>

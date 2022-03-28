@@ -80,7 +80,7 @@
           <div class="container">        
             <ul class="bottom-menu list-unstyled py-2">
               <li class="bottom-menu__item">
-                <a href="#" class="bottom-menu__link"><img alt="СК Сертификат" src="/services/img/logo.svg" width="200"></a>
+                <a href="#" class="bottom-menu__link"><img alt="СК Сертификат" src="/img/logowhite.png" width="110"></a>
               </li>
               <li class="bottom-menu__item">
                 <a href="#sertification-types" class="bottom-menu__link">Сертификация</a>
@@ -109,7 +109,7 @@
         <!-- </div> --> 
 
         <div class="top_address top_address--bottom">   
-          Ростовская обл., г. Таганрог<br> ул. Плотникова, д. 94а
+          Ростовская обл., г. Таганрог<br> ул. Москатова, д. 15
           <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
         </div>
 
