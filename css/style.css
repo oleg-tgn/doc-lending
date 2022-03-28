@@ -2465,6 +2465,10 @@ ol:not(.list-unstyled) > li:before {
     padding: 70px 0 0;
 }
 
+.textcanvas {
+    margin-bottom: 50px;
+}
+
 .textcanvas_text {
     font-size: 18px;
 }
