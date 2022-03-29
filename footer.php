@@ -125,4 +125,3 @@
 </section>
 </footer>
 
-<script type="text/javascript" src="./js/bg_slide.js"></script>

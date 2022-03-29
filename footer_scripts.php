@@ -1,17 +1,14 @@
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
     <script src="ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-    <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script>
-    <script type="text/javascript" src="widget/cbk.js?wcb_code=98ca9014dab9ee720df8e55f0190a820" charset="UTF-8" async=""></script> 
+    <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
     <script> $(document).ready(function() { $('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script> <script> $(document).ready(function() { $('[type="submit"]').click(function() { if(typeof wsKiller !== 'undefined'){ wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script>
 
     <script> jQuery(document).ready(function() { jQuery('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit(jQuery(this).closest('form')); } })}) </script>
 
-
-    <link rel="stylesheet" href="widget/cbk.css">
-    <link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
+    <script type="text/javascript" src="/js/bg_slide.js"></script>
 
 <script>
     (function( $ ) {
@@ -177,93 +174,9 @@
 
 	   });
 	</script>
-	<script>
-    	$(document).ready(function () {
 
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=54078c0b380ec61dd2df2d3bdf11d842" charset="UTF-8" async></script>
 
-
-
-
-
-
-
-
-
-
-    		$('.s_block a, .s_block img').click(function() {
-          console.log('11111');
-          var count = $(this).attr('data-count');
-          if ($("div").is(".more_info1")) {
-            $('#more_info1').slideUp (600, function() {
-              $('#more_info1').load('ajax/sert'+ count +'.html');
-              $('#more_info1').slideDown (600);
-            })
-          } else {
-				  $('#more_info1').load('ajax/sert'+ count +'.html', function(){$('#more_info1').slideDown (600);});
-
-          }
-    			return false;
-    		});
-
-
-
-	$('.search').submit(function() {
-		if ($('.search_input').val() !== '') {
-		$('.search_btn').addClass('search_btn_load');
-		setTimeout(function() {
-			$('#search_result').text($('.search_input').val());
-			$('#modalSearch').modal('show');
-			$('.search_btn').removeClass('search_btn_load');
-
-		}, 1000);}
-		else {
-			alert('Введите нименование продукции или услуги');
-		}
-		return false;
-	});
-
-
-window.ws_OnCallbackOnlineCall = window.ws_OnCallbackDeferredCall = function(data) {
-var _ctreq = function(data, sid = 20947, nid = 7) {
-var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
-post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
-url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
-request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
-}
-try{
-fio = (data.name != undefined && data.name!=null)?data.name:'';
-phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
-email = (data.email != undefined && data.email!=null)?data.email:'';
-if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
-	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
-} else {
-	if (!!phone||!!email) _ctreq({subject: "Звонок Envybox", fio: fio, phoneNumber: phone, email: email});
-}
-} catch(e) {console.log(e)}
-}
-
-
-window.ws_OnChatOfflineMessage = window.ws_OnChatVisitorIntroduced = function(data) {
-var _ctreq = function(data, sid = 20947, nid = 7) {
-var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest(),
-post_data = Object.keys(data).reduce(function(a, k) {if(!!data[k]){a.push(k + '=' + encodeURIComponent(data[k]));}return a}, []).join('&'),
-url = 'https://api-node'+nid+'.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
-request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
-}
-try{
-fio = (data.name != undefined && data.name!=null)?data.name:'';
-phone = (data.phone != undefined && data.phone!=null)?data.phone:'';
-email = (data.email != undefined && data.email!=null)?data.email:'';
-if (window.call_value != undefined && window.call_value != null && window.call_value != 0) {
-	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email, sessionId: window.call_value });
-} else {
-	if (!!phone||!!email) _ctreq({subject: "Заявка из онлайн-чата", fio: fio, phoneNumber: phone, email: email});
-}
-} catch(e) {console.log(e)}
-}
-
-
-
-
-	   });
-	</script>
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=54078c0b380ec61dd2df2d3bdf11d842" charset="UTF-8" async></script>

@@ -39,4 +39,7 @@
 <link href="/css/fonts.css" rel="stylesheet">
 
 <link href="/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
+
+<link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
  
