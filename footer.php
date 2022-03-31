@@ -80,22 +80,22 @@
           <div class="container">        
             <ul class="bottom-menu list-unstyled py-2">
               <li class="bottom-menu__item">
-                <a href="#" class="bottom-menu__link"><img alt="СК Сертификат" src="/img/logow.svg"></a>
+                <a href="/#" class="bottom-menu__link"><img alt="СК Сертификат" src="/img/logow.svg"></a>
               </li>
               <li class="bottom-menu__item">
-                <a href="#sertification-types" class="bottom-menu__link">Сертификация</a>
+                <a href="/#sertification-types" class="bottom-menu__link">Сертификация</a>
               </li>
               <li lass="bottom-menu__item">
-                <a href="#thanks" class="bottom-menu__link">Благодарности</a>
+                <a href="/#thanks" class="bottom-menu__link">Благодарности</a>
               </li>
               <li>
-                <a href="#guarantee" class="bottom-menu__link">Преимущества</a>
+                <a href="/#guarantee" class="bottom-menu__link">Преимущества</a>
               </li>
               <li lass="bottom-menu__item">
-                <a href="#faq" class="bottom-menu__link">Вопросы</a>
+                <a href="/#faq" class="bottom-menu__link">Вопросы</a>
               </li>
               <li lass="bottom-menu__item">
-                <a href="#contacts" class="bottom-menu__link">Контакты</a>
+                <a href="/#contacts" class="bottom-menu__link">Контакты</a>
               </li>
             </ul>
           </div>
