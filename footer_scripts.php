@@ -2,7 +2,6 @@
     <script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
-    <script src="ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
     <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
     <script> $(document).ready(function() { $('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script> <script> $(document).ready(function() { $('[type="submit"]').click(function() { if(typeof wsKiller !== 'undefined'){ wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script>
 
@@ -70,110 +69,21 @@
     });
   </script>
 
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- <script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>  -->
 
 
-    <script>
-    	$(document).ready(function () {
-   		//initialize swiper when document ready
-   		var docslider = new Swiper ('.slider1', {
-   		  // Optional parameters
-   		  slidesPerView: 5,
-      	  spaceBetween: 30,
-      	  grabCursor: true,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: true,
-      },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          breakpoints: {
-          1200: {
-            slidesPerView: 4,
-            spaceBetween: 50,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-          570: {
-            slidesPerView: 2,
-            spaceBetween: 50,
-          },
-          456: {
-            slidesPerView: 1,
-            spaceBetween: 50,
-          },
-         }
-	     });
-
-
-
-      //initialize swiper when document ready
-      var revslider = new Swiper ('.slider3', {
-        // Optional parameters
-        slidesPerView: 4,
-          spaceBetween: 30,
-          grabCursor: true,
-          autoplay: false,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          breakpoints: {
-          1200: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 50,
-          },
-          570: {
-            slidesPerView: 2,
-            spaceBetween: 50,
-          },
-          456: {
-            slidesPerView: 1,
-            spaceBetween: 50,
-          },
-         }
-       });
-
-
-        
-         var tslider = new Swiper ('.slider2', {
-        // Optional parameters
-          slidesPerView: 3,
-          grabCursor: true,
-          autoplay: false,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          breakpoints: {
-          1200: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 1,
-            spaceBetween: 150,
-          },
-          570: {
-            slidesPerView: 1,
-            spaceBetween: 150,
-          },
-          456: {
-            slidesPerView: 1,
-            spaceBetween: 150,
-          },
-         }
-       });     
-        
-
-	   });
-	</script>
 
 <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=54078c0b380ec61dd2df2d3bdf11d842" charset="UTF-8" async></script>

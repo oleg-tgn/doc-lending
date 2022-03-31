@@ -21,7 +21,7 @@
       <div class="serviceMenu">
         <div class="container">
           <div class="serviceMenu__list">
-            <a href="/" class="serviceMenu__logo-link"><img src="/img/logob.svg" class="serviceMenu__logo"></a>
+            <a href="/" class="serviceMenu__logo-link"><img class="serviceMenu__logo" alt="Альфа Сертификат" src="/img/logob.svg"></a>
             <a href="/#sertification-types" class="smLink teamHref">Сертификация</a>
             <a href="/#algorithm" class="smLink teamHref">Алгоритм</a>
             <a href="/#guarantee" class="smLink teamHref">Преимущества</a>

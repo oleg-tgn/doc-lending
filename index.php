@@ -228,129 +228,20 @@
       </div>
     </div>
 
+    <!-- <div class="container">
+      <?php //include('./blocks/reviews.php'); ?>
+    </div> -->
+
     <div class="vbackground">
-      <div class="row-fluid row-faq" id="thanks">
+      <!-- <div class="row-fluid row-faq" id="thanks">
         <div class="container">
           <h2 class="text-center">Благодарственные письма</h2>
           <p class="h2_desc">Более 100 компаний оставили положительные отзывы о работе с СК Сертификат</p>
           <div class="p-40"></div>
     
-          <div class="slider_cont" style="margin-top: 0px">
-            <!-- Slider main container -->
-            <div class="swiper-container slider3">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/1.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/1.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/2.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/2.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/3.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/3.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/4.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/4.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/5.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/5.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/6.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/6.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/8.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/8.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/9.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/9.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/10.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/10.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/11.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/11.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/12.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/12.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/13.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/13.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/14.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/14.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/15.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/15.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/16.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/16.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/17.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/17.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/18.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/18.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/19.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/19.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/20.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/20.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="revBox">
-                          <a data-fancybox="gallery2" href="img/reviews/21.jpg" class="care_p2"><img alt="СК Сертификат" src="img/reviews/small/21.jpg"></a>
-                      </div>
-                    </div>
-                </div>
-    
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-    
-            </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     <div class="quastionandcommunication">
 

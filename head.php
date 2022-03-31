@@ -24,6 +24,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
 <link rel="canonical" href="index.htm">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
@@ -34,12 +36,10 @@
 
 <link href="/css/bootstrap.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
-<link href="/css/swiper.css" rel="stylesheet">
 
 <link href="/css/fonts.css" rel="stylesheet">
 
 <link href="/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
 <link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
 
-<link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.css">
  

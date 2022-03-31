@@ -485,10 +485,10 @@ h2 span {
     margin-top: 50px;
 }
 
-.swiper-container {
+/* .swiper-container {
     padding-right: 45px!important;
     padding-left: 45px!important;
-}
+} */
 
 .s_block p {
      text-align: center;
@@ -985,11 +985,11 @@ font-weight: 400;
 }
 
 
-.team-slider .swiper-slide img {
+/* .team-slider .swiper-slide img {
     height: 350px;
     display: block;
     margin: 0px auto;
-}
+} */
 
 .teamName {
     position: absolute;
@@ -1616,9 +1616,9 @@ h1 {
     float: none;
 }
 
-.team-slider .swiper-slide img {
+/* .team-slider .swiper-slide img {
     height: 250px;
-}
+} */
 
   .container {
     width: 420px;
@@ -2476,4 +2476,30 @@ ol:not(.list-unstyled) > li:before {
 
 .textcanvas_text {
     font-size: 18px;
+}
+
+/* .swiper__slide-arrows_arrow {
+    background-image: url(/img/algorithm/Стрелки.svg);
+    height: 20px;
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.swiper-button-prev {
+    background-image: url('/img/swiper/arrow-left.svg');
+}
+
+.swiper-button-next {
+    background-image: url('/img/swiper/arrow-right.svg');
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none;
 }
