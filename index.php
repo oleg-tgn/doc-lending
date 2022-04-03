@@ -26,7 +26,7 @@
             <p class="utp_text"><span>Делаем приятные <br>скидки</span> постоянным <br>клиентам</p>
           </div>
           <div class="cl"></div>
-          <button class="btn btn_top anim-btn" data-toggle="modal" data-target="#modalCalc">Рассчитать стоимость бесплатно</button>
+          <button class="btn btn_top anim-btn js-open-callbackkiller" data-toggle="modal" data-target="#modalCalc">Рассчитать стоимость бесплатно</button>
         </div>
         <div class="col-md-5 no-pad glav_sert__wrap">
           <img alt="СК Сертификат" class="glav_sert" src="img/sert.png">
@@ -212,7 +212,6 @@
           </div>
           <div class="col-12 col-md-6">
             <h2 class="guarantee__title">Почему вам стоит работать именно с&nbsp;нами?</h2>
-            
             <ol class="guarantee__list">
               <li class="care_p1">100% постоплата на оформление Деклараций и Отказных писем по договору;</li>
               <li class="care_p1">Мы аттестованный орган по <a href="#">Сертификации;</a></li>
@@ -221,7 +220,7 @@
               <li class="care_p1">Не теряем связь с клиентами, в том числе после завершения проекта;</li>
               <li class="care_p1">В случае форс-мажорных ситуаций компания берет на себя ответственность за решение вопросов.</li>
             </ol>
-            <button class="btn btn_top anim-btn" data-toggle="modal" data-target="#modalPerezvon">Связаться с нами</button>
+            <button class="btn btn_top anim-btn js-open-callbackkiller">Связаться с нами</button>
             <div class="cl"></div>
           </div>
         </div>
@@ -455,229 +454,11 @@
   </div>
 
 
-<div id="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A715d25e3fd3a60f9a9dc3435a17793b0776b3ae36f0a1f34de3db292db2c83f8&amp;width=100%25&amp;height=518&amp;lang=ru_RU&amp;scroll=false"></script></div>
+<div id="map" class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A715d25e3fd3a60f9a9dc3435a17793b0776b3ae36f0a1f34de3db292db2c83f8&amp;width=100%25&amp;height=518&amp;lang=ru_RU&amp;scroll=false"></script></div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="modalCalc" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-body-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-        		<h3>Рассчитать стоимость бесплатно</h3>
-        		<p>Заполните форму, и мы свяжемся с Вами:</p>
-				<form action="mail.php" method="POST" class="modal_form">
-        		<input class="modal_input" type="text" name="name" placeholder="Введите имя"><div class="cl"></div>
-        		<input class="modal_input phoneClass" type="tel" name="phone" placeholder="Введите телефон" required=""><div class="cl"></div>
-        		<input type="hidden" name="source" value="Форма расчета стоимости">
-        		<button type="submit" class="btn btn_top">Отправить</button>
-        	   </form>
+  <?php include('footer.php'); ?>
+  <?php include('footer_scripts.php'); ?>
 
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalPerezvon" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-body-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-        		<h3>Перезвоним прямо сейчас</h3>
-        		<p>Заполните форму, и мы перезвоним Вам:</p>
-				<form action="mail.php" method="POST" class="modal_form">
-        		<input class="modal_input" type="text" name="name" placeholder="Введите имя"><div class="cl"></div>
-        		<input class="modal_input phoneClass" type="tel" name="phone" placeholder="Введите телефон" required=""><div class="cl"></div>
-        		<input type="hidden" name="source" value="Форма зявки на перезвон">
-        		<button type="submit" class="btn btn_top">Отправить</button>
-        	   </form>
-
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalZvon" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-body-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-        		<h3>Оставьте заявку</h3>
-        		<p>Заполните форму, и мы перезвоним Вам:</p>
-				<form action="mail.php" method="POST" class="modal_form">
-        		<input class="modal_input" type="text" name="name" placeholder="Введите имя"><div class="cl"></div>
-        		<input class="modal_input phoneClass" type="tel" name="phone" placeholder="Введите телефон" required=""><div class="cl"></div>
-        		<input type="hidden" name="source" value="Форма сбора заявки">
-        		<button type="submit" class="btn btn_top">Отправить</button>
-        	   </form>
-
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalCommercial" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-body-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-        		<h3>Получите коммерческое предложение</h3>
-        		<p>Заполните форму, и мы отправим Вам КП:</p>
-				<form action="mail.php" method="POST" class="modal_form">
-        		<input class="modal_input phoneClass" type="tel" name="phone" placeholder="Введите телефон" required=""><div class="cl"></div>
-        		<input class="modal_input" type="text" name="email" placeholder="Введите E-mail"><div class="cl"></div>
-        		<input type="hidden" name="source" value="Форма запрос на коммерческое предложение">
-        		<button type="submit" class="btn btn_top">Отправить</button>
-        		</form>
-
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalSearch" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body" style="    background-color: #fbfbfb;">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="text-center">
-        		<h3>Продукция «<span id="search_result"></span>» нуждается в сертификации</h3>
-        		<p>Наш менеджер подготовил всю необходимую информацию по сертификации данной продукции. Заполните форму и он свяжется с вами:</p>
-	         <form action="mail.php" method="POST" class="modal_form_search">
-        		<input class="modal_input" type="text" name="name" placeholder="Введите имя"><div class="cl"></div>
-        		<input class="modal_input phoneClass" type="tel" name="phone" placeholder="Введите телефон" required=""><div class="cl"></div>
-        		<input type="hidden" name="source" value="Форма проверки необходимости сертификации">
-        		<button type="submit" class="btn btn_top">Отправить</button>
-        		</form>
-
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalPrice" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-body-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-        		<h3>Наши цены — средние по рынку</h3>
-        		<p>Почему это важно:</p>
-
-        		<p class="price_p">Мы ценим время и деньги каждого клиента, и стремимся оправдать оказанное Вами доверие, предоставляя услугу быстро, качественно и с разъяснением всех интересующих вопросов.</p>
-        		<div class="p-30"></div>
-        		<p>Что входит в стоимость:</p>
-
-        		<p class="price_p">— Заполнение всех документов для заявки на сертификацию</p>
-        		<p class="price_p">— Сбор необходимых документов и образцов</p>
-        		<p class="price_p">— Регистрация документа в реестре ФСА</p>
-        		<p class="price_p">— Решение спорных вопросов по ТР ТС без вашего участия</p>
-
-
-        </div>
-
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="modalPolitic" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-              <div class="economy_form">
-<h4>Защита личных данных</h4>
-<div class="p-10"></div>
-Для защиты ваших личных данных у нас внедрен ряд средств защиты, которые действуют при введении, передаче или работе с вашими личными данными.
-<div class="p-10"></div>
-<h4>Разглашение личных сведений и передача этих сведений третьим лицам</h4>
-<div class="p-10"></div>
-Ваши личные сведения могут быть разглашены нами только в том случае это необходимо для: (а) обеспечения соответствия предписаниям закона или требованиям судебного процесса в нашем отношении ; (б) защиты наших прав или собственности (в) принятия срочных мер по обеспечению личной безопасности наших сотрудников или потребителей предоставляемых им услуг, а также обеспечению общественной безопасности. Личные сведения, полученные в наше распоряжение при регистрации, могут передаваться третьим организациям и лицам, состоящим с нами в партнерских отношениях для улучшения качества оказываемых услуг. Эти сведения не будут использоваться в каких-либо иных целях, кроме перечисленных выше. Адрес электронной почты, предоставленный вами при регистрации может использоваться для отправки вам сообщений или уведомлений об изменениях, связанных с вашей заявкой, а также рассылки сообщений о происходящих в компании событиях и изменениях, важной информации о новых товарах и услугах и т.д. Предусмотрена возможность отказа от подписки на эти почтовые сообщения.
-<div class="p-10"></div>
-<h4>Использование файлов «cookie»</h4>
-<div class="p-10"></div>
-Когда пользователь посещает веб-узел, на его компьютер записывается файл «cookie» (если пользователь разрешает прием таких файлов). Если же пользователь уже посещал данный веб-узел, файл «cookie» считывается с компьютера. Одно из направлений использования файлов «cookie» связано с тем, что с их помощью облегчается сбор статистики посещения. Эти сведения помогают определять, какая информация, отправляемая заказчикам, может представлять для них наибольший интерес. Сбор этих данных осуществляется в обобщенном виде и никогда не соотносится с личными сведениями пользователей. Третьи стороны, включая компании Google, показывают объявления нашей компании на страницах сайтов в Интернете. Третьи стороны, включая компанию Google, используют cookie, чтобы показывать объявления, основанные на предыдущих посещениях пользователем наших вебсайтов и интересах в веб-браузерах. Пользователи могут запретить компаниям Google использовать cookie. Для этого необходимо посетить специальную страницу компании Google по этому адресу: http://www.google.com/privacy/ads/
-
-<div class="p-10"></div>
-<h4>Изменения в заявлении о соблюдении конфиденциальности</h4>
-<div class="p-10"></div>
-Заявление о соблюдении конфиденциальности предполагается периодически обновлять. При этом будет изменяться дата предыдущего обновления, указанная в начале документа. Сообщения об изменениях в данном заявлении будут размещаться на видном месте наших веб-узлов Благодарим Вас за проявленный интерес к нашей системе!
-              </div>
-
-      <div class="cl"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-    
-
-
-
-
-
-  
-    <?php include('footer.php'); ?>
-    <?php include('footer_scripts.php'); ?>
- 
   </body>
 </html>

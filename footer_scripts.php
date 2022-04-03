@@ -1,40 +1,16 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
+    <script src="/js/bootstrap.js"></script>
+    <script src="/gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
     <script> $(document).ready(function() { $('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script> <script> $(document).ready(function() { $('[type="submit"]').click(function() { if(typeof wsKiller !== 'undefined'){ wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script>
 
     <script> jQuery(document).ready(function() { jQuery('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit(jQuery(this).closest('form')); } })}) </script>
 
     <script type="text/javascript" src="/js/bg_slide.js"></script>
 
-<script>
-    (function( $ ) {
-        var myCall = setInterval(envyZvonok);
-        function envyZvonok() {
-        var form = $('form');
-            for(var i = 0; i<form.length; i++){
-                if (typeof WBK !== 'undefined'){
-                    if(wsKiller.settings.killerFormCall==1){
-                        var onVal = $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick');
-                        if (!/wsKiller/.test(onVal)){
-                            $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick',"wsKiller.checkFormOnSubmit($(this).closest('form'))");
-                        }
-                    }else if(wsKiller.settings.killerFormCall==2){
-                        var onVal = $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick');
-                        if (!/wsKiller/.test(onVal)){
-                            $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick',"wsKiller.checkFormOnSubmit($(this).closest('.callbackwidget-call-form'))");
-                        }
-                    }
-                }
-            }
-        }
-    })(jQuery);
-</script> 
-
-     <link rel="stylesheet" href="css/intlTelInput.css">
-    <script src="js/intlTelInput.js"></script>
+    <link rel="stylesheet" href="/css/intlTelInput.css">
+    <script src="/js/intlTelInput.js"></script>
     <script>
       var elements = document.querySelectorAll('.phoneClass');
       elements.forEach(function(el, index) {
@@ -55,7 +31,7 @@
         utilsScript: "https://www.sk-sertifikat.ru/js/utils.js",
       });
       });
-    </script> 
+    </script>
 
 
 
@@ -66,6 +42,12 @@
           } else {
               $('nav').addClass('out');
           }
+    });
+  </script>
+
+  <script>
+    $('.js-open-callbackkiller').on('click', function() {
+      $('.callbackkiller.cbk-phone')[0].click();
     });
   </script>
 

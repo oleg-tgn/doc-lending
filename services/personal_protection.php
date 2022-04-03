@@ -5,20 +5,13 @@
     <title>Индивидуальная защита</title>
     <?php include('../head.php'); ?>
   </head>
-
-
   <body>
-
 
   <?php include('../header.php'); ?>
 
-
-
-
-  
 <div class="row-fluid row-content" style="padding-top: 0px;">
   <div class="container">
-    <div id="breadcrumbs">
+    <div id="breadcrumbs" class="breadcrumbs">
        <span>
            <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
        </span>      

@@ -1,37 +1,28 @@
 ﻿
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
     <title>Оборудование и техника</title>
     <?php include('../head.php'); ?>
   </head>
-
-
   <body>
-
 
   <?php include('../header.php'); ?>
 
-
-
-
-  
-<div class="row-fluid row-content" style="padding-top: 0px;">
-  <div class="container">
-    <div id="breadcrumbs">
-       <span>
-           <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
-       </span>      
-       <span class="bc-arrow">→</span>
-       <span>Оборудование и техника</span>
+  <div class="row-fluid row-content" style="padding-top: 0px;">
+    <div class="container">
+      <div id="breadcrumbs" class="breadcrumbs">
+        <span>
+            <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
+        </span>
+        <span class="bc-arrow">→</span>
+        <span>Оборудование и техника</span>
+      </div>
     </div>
   </div>
-</div>
-	
+
   <section class="textcanvas">
     <div class="container">
-      
       <h1 class="textcanvas_title">Оборудование и техника</h1>
       <p class="textcanvas_text">В нашем центре сертификации «Верное Решение» Вы можете оформить сертификаты или декларации соответствия ТР ТС на машины и оборудование, подпадающие под действие следующих регламентов:</p>
       <ul>

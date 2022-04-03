@@ -859,15 +859,16 @@ font-weight: 400;
 }
 
 .modal_input {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    padding: 15px 26px;
+    padding: 10px 26px;
     border-radius: 0;
     border: 1px solid #3099e9;
     width: 300px;
     float: left;
     outline: none;
-    margin-top: 15px;
+    margin-top: 10px;
+    resize: none;
 }
 
 .modal_form_search {
@@ -2043,7 +2044,7 @@ footer .footer-top .feedback_block .footer-notice .under_title {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 35px 50px 60px;
+    padding: 15px 50px 60px;
 }
 
 .feedback-c .file-upload {
@@ -2510,7 +2511,6 @@ ol:not(.list-unstyled) > li:before {
     content: none;
 }
 
-
 .thanks_text {
     font-size: 18px;
     line-height: 1.5;
@@ -2555,4 +2555,27 @@ ol:not(.list-unstyled) > li:before {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+.breadcrumbs {
+    margin-top: 20px;
+}
+
+.map {
+    height: 518px;
+}
+
+.feedback-c.bg {
+    width: 500px;
+    max-width: 100%;
+}
+
+.feedback-c .alert-success {
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 0;
+    background: green;
+    border-color: green;
+    text-align: center;
+    margin-top: 35px;
 }
