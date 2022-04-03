@@ -71,7 +71,7 @@
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-<!-- <script>
+<script>
   const swiper = new Swiper('.swiper', {
   // Optional parameters
 
@@ -81,7 +81,7 @@
     prevEl: '.swiper-button-prev',
   },
 });
-</script>  -->
+</script>
 
 
 

@@ -2478,17 +2478,22 @@ ol:not(.list-unstyled) > li:before {
     font-size: 18px;
 }
 
-/* .swiper__slide-arrows_arrow {
-    background-image: url(/img/algorithm/Стрелки.svg);
-    height: 20px;
-} */
+.thanks {
+    /* padding-bottom: 100px; */
+}
 
 .swiper-button-prev,
 .swiper-button-next {
+    margin-top: 120px;
     width: 70px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;
+}
+
+.swiper-button-next {
+    left: 100px;
+    right: auto;
 }
 
 .swiper-button-prev {
@@ -2502,4 +2507,51 @@ ol:not(.list-unstyled) > li:before {
 .swiper-button-prev:after,
 .swiper-button-next:after {
     content: none;
+}
+
+
+.thanks_text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;    
+    /* height: 180px;  */
+}
+
+.thanks_customer {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.thanks__title {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.swiper {
+    height: 370px;
+    padding-bottom: 50px;
+}
+
+.thanks_signature {
+    font-size: 18px;
+}
+
+.thanks_customer__desc {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px 0 10px 25px;
+}
+
+.thanks_customer__name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.thanks_face {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
