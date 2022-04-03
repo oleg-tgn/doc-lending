@@ -1,16 +1,16 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <script src="gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
+    <script src="/js/bootstrap.js"></script>
+    <script src="/gh/fancyapps/fancybox%403.5.6/dist/jquery.fancybox.min.js"></script> 
     <script> $(document).ready(function() { $('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script> <script> $(document).ready(function() { $('[type="submit"]').click(function() { if(typeof wsKiller !== 'undefined'){ wsKiller.checkFormOnSubmit($(this).closest('form')); } })}) </script>
 
     <script> jQuery(document).ready(function() { jQuery('body').on('click', '[type="submit"]', function(){ if(typeof wsKiller !== 'undefined'){wsKiller.checkFormOnSubmit(jQuery(this).closest('form')); } })}) </script>
 
     <script type="text/javascript" src="/js/bg_slide.js"></script>
 
-     <link rel="stylesheet" href="css/intlTelInput.css">
-    <script src="js/intlTelInput.js"></script>
+    <link rel="stylesheet" href="/css/intlTelInput.css">
+    <script src="/js/intlTelInput.js"></script>
     <script>
       var elements = document.querySelectorAll('.phoneClass');
       elements.forEach(function(el, index) {
@@ -31,7 +31,7 @@
         utilsScript: "https://www.sk-sertifikat.ru/js/utils.js",
       });
       });
-    </script> 
+    </script>
 
 
 

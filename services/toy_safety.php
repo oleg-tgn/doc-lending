@@ -5,29 +5,22 @@
     <title>Безопасность игрушек</title>
     <?php include('../head.php'); ?>
   </head>
-
-
   <body>
 
   <?php include('../header.php'); ?>
 
-
-
-
-  
-<div class="row-fluid row-content" style="padding-top: 0px;">
-  <div class="container">
-    <div id="breadcrumbs">
-       <span>
-           <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
-       </span>      
-       <span class="bc-arrow">→</span>
-       <span>Безопасность игрушек</span>
+  <div class="row-fluid row-content" style="padding-top: 0px;">
+    <div class="container">
+      <div id="breadcrumbs" class="breadcrumbs">
+        <span>
+            <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
+        </span>
+        <span class="bc-arrow">→</span>
+        <span>Безопасность игрушек</span>
+      </div>
     </div>
   </div>
-</div>
 
-	
   <section class="textcanvas">
     <div class="container">
 

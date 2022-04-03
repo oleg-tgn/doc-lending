@@ -101,7 +101,7 @@
           </div>
       </div>
 
-      <div class="container">        
+      <div class="container">
         <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; ОФОРМЛЕНИЕ ВСЕХ ВИДОВ РАЗРЕШИТЕЛЬНЫХ ДОКУМЕНТОВ НА <span>ЛЮБЫЕ</span> ИЗДЕЛИЯ, СЫРЬЕ И ОБОРУДОВАНИЕ</p>
         <!-- <div class="top_mail">
             <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
