@@ -1,7 +1,7 @@
 
     <footer class="bg">
 <section class="footer-top mt-4">
-        <div class="feedback_block">
+        <div class="feedback_block" >
             <div class="container px-0 px-xl-3">
                 <div class="col-12">
                     <div class="row">
@@ -18,26 +18,25 @@
                         </div>
 
                         <div class="col-12 col-lg-5">
-          <div class="feedback-c mt-lg-n5  bg footer_popup">
+          <div class="feedback-c mt-lg-n5  bg footer_popup" id="feedback">
             <div>
-              <h3 class="footer_textpopup">Заказать звонок</h3>
-              <p class="footer_textpopup">Заполните форму, и мы перезвоним Вам:</p>
-                <form action="mail.php" method="POST" class="modal_form footer_form">
-                    <input class="modal_input footer_inputpopup" type="text" name="name" placeholder="Введите имя">
-                    <div class="cl"></div>
-                    <div class="iti iti--allow-dropdown footer_flag">
-                      <div class="iti__flag-container">
-                        <div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" tabindex="0">
-                          <div class="iti__arrow"></div>
-                        </div>
-                      </div>
-                      <input class="modal_input phoneClassFooter footer_inputpopup" type="tel" name="phone" placeholder="Введите телефон" required="" autocomplete="off" data-intl-tel-input-id="1">
-                    </div>
-                  <div class="cl"></div>
-                    <input type="hidden" name="source" value="Форма зявки на перезвон">
+              <h3 class="footer_textpopup">Обратная связь</h3>
+              <?php
+                if (isset($_GET['mail']) && $_GET['mail'] == 'success'):
+              ?>
+              <div class="alert alert-success" role="alert">
+                  Спасибо за ваш отзыв!
+              </div>
+              <?php else: ?>
+                <p class="footer_textpopup">Напишите свой отзыв о нашей работе:</p>
+                <form action="/mail.php" method="POST" class="modal_form footer_form">
+                    <input class="modal_input footer_inputpopup" type="text" name="feedback_name" required placeholder="Ваше имя">
+                    <input class="modal_input footer_inputpopup" type="email" name="feedback_email" required placeholder="Ваш Email">
+                    <textarea class="modal_input footer_inputpopup" name="feedback_text" id="" cols="30" rows="5" placeholder="Ваш отзыв"></textarea>
                     <button type="submit" class="btn btn_top btn_top--call" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
-                    </form>
-                </div>
+                </form>
+              <?php endif; ?>
+            </div>
           </div>
 
                            </div>
