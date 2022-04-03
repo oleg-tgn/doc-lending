@@ -9,30 +9,6 @@
 
     <script type="text/javascript" src="/js/bg_slide.js"></script>
 
-<script>
-    (function( $ ) {
-        var myCall = setInterval(envyZvonok);
-        function envyZvonok() {
-        var form = $('form');
-            for(var i = 0; i<form.length; i++){
-                if (typeof WBK !== 'undefined'){
-                    if(wsKiller.settings.killerFormCall==1){
-                        var onVal = $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick');
-                        if (!/wsKiller/.test(onVal)){
-                            $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick',"wsKiller.checkFormOnSubmit($(this).closest('form'))");
-                        }
-                    }else if(wsKiller.settings.killerFormCall==2){
-                        var onVal = $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick');
-                        if (!/wsKiller/.test(onVal)){
-                            $(form[i]).find('[type="submit"],[type="button"],button').attr('onclick',"wsKiller.checkFormOnSubmit($(this).closest('.callbackwidget-call-form'))");
-                        }
-                    }
-                }
-            }
-        }
-    })(jQuery);
-</script> 
-
      <link rel="stylesheet" href="css/intlTelInput.css">
     <script src="js/intlTelInput.js"></script>
     <script>
@@ -66,6 +42,12 @@
           } else {
               $('nav').addClass('out');
           }
+    });
+  </script>
+
+  <script>
+    $('.js-open-callbackkiller').on('click', function() {
+      $('.callbackkiller.cbk-phone')[0].click();
     });
   </script>
 
