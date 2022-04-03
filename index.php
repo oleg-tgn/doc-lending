@@ -138,7 +138,7 @@
           <div id="" data-slide="slide-11" class="col-lg-3 gallery-img d-flex on-hover">
               <div class="row">
                   <a href="./services/other_products.php">
-                      <div class="sertification__tile" style="background-image:url('./img/services/11-otherproducts.jpeg');"></div>                       
+                      <div class="sertification__tile" style="background-image:url('./img/services/11-otherproducts.jpg');"></div>                       
                       <span class="justify-content-between justify-content-xl-center pl-4 pl-xl-0 text-left text-xl-center">
                       Другая продукция</span>
                   </a>
@@ -156,7 +156,7 @@
               <div id="slide-8" class="bg_slide" style="background-color: #2B485A;" data-src="./img/services/08-cosmetic.jpg" data-src-jpg="./img/services/08-cosmetic.jpg"></div>
               <div id="slide-9" class="bg_slide" style="background-color: #2B485A;" data-src="./img/services/09-food.jpg" data-src-jpg="./img/services/09-food.jpg"></div>
               <div id="slide-10" class="bg_slide" style="background-color: #2B485A;" data-src="./img/services/10-household.jpg" data-src-jpg="./img/services/10-household.jpg"></div>
-              <div id="slide-11" class="bg_slide" style="background-color: #2B485A;" data-src="./img/services/11-otherproducts.jpeg" data-src-jpg="./img/services/11-otherproducts.jpeg"></div>
+              <div id="slide-11" class="bg_slide" style="background-color: #2B485A;" data-src="./img/services/11-otherproducts.jpg" data-src-jpg="./img/services/11-otherproducts.jpg"></div>
       </div>      
     </section> 
 
