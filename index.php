@@ -29,7 +29,7 @@
           <button class="btn btn_top anim-btn js-open-callbackkiller" data-toggle="modal" data-target="#modalCalc">Рассчитать стоимость бесплатно</button>
         </div>
         <div class="col-md-5 no-pad glav_sert__wrap">
-          <img alt="СК Сертификат" class="glav_sert" src="img/sert.png">
+          <img alt="Альфа Серт" class="glav_sert" src="img/sert.png">
         </div>
       </div>
     <section class="sertification-types-space" id="sertification-types"></section>

@@ -38,6 +38,7 @@
 
 <link href="/css/bootstrap.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
+<link href="/css/adaptive.css" rel="stylesheet">
 
 <link href="/css/fonts.css" rel="stylesheet">
 
