@@ -186,11 +186,6 @@
         </div>
         <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
         <div class="algorithm_step">
-          <img class="algorithm_img" alt="Оплата после регистрации" src="./img/algorithm/logoblue/bill.png">
-          <p class="algorithm_text">Оплата после регистрации</p>
-        </div>
-        <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
-        <div class="algorithm_step">
           <img class="algorithm_img" alt="Бесплатная доставка" src="./img/algorithm/logoblue/letter_speed.png">
           <p class="algorithm_text">Бесплатная доставка</p>
         </div>
@@ -213,8 +208,7 @@
           <div class="col-12 col-md-6">
             <h2 class="guarantee__title">Почему вам стоит работать именно с&nbsp;нами?</h2>
             <ol class="guarantee__list">
-              <li class="care_p1">100% постоплата на оформление Деклараций и Отказных писем по договору;</li>
-              <li class="care_p1">Мы аттестованный орган по <a href="#">Сертификации;</a></li>
+              <li class="care_p1">Мы аттестованный орган по Сертификации;</li>
               <li class="care_p1">Команда высококласных специалистов с многолетним опытом;</li>
               <li class="care_p1">Доставка оригиналов документов в течении 5 рабочих дней;</li>
               <li class="care_p1">Не теряем связь с клиентами, в том числе после завершения проекта;</li>
@@ -435,15 +429,15 @@
         <div class="container">
           <h2 class="text-center">Свяжитесь с нами <br class="hidden-xs">для бесплатной консультации:</h2>
           <div class="col-sm-4 footer_item">
-            <img alt="СК Сертификат" src="img/icons/footer_1.png">
+            <img alt="СК Сертификат" src="img/icons/footer_1v2.png">
             <p>Ростовская обл., г. Таганрог ул.&nbsp;Плотникова, д. 94а</p>
           </div>
           <div class="col-sm-4 footer_item">
-            <img alt="СК Сертификат" src="img/icons/footer_2.png">
+            <img alt="СК Сертификат" src="img/icons/footer_2v2.png">
             <p><span><a class="call_link" href="tel:+74952041287">+7 (904) 343-35-44</a></span><br><span><a class="call_link" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a></span></p>
           </div>
           <div class="col-sm-4 footer_item">
-            <img alt="СК Сертификат" src="img/icons/footer_3.png">
+            <img alt="СК Сертификат" src="img/icons/footer_3v2.png">
             <p>Режим работы:<br>Пн-Пт с 9 до 18 (МСК)</p>
           </div>
           <div class="cl"></div>

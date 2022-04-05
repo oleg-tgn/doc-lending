@@ -1,3 +1,4 @@
+<?php include('variables.php'); ?>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +24,7 @@
    
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 

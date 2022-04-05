@@ -7,12 +7,12 @@
         <!-- </div> --> 
 
         <div class="top_address">   
-          Ростовская обл., г. Таганрог<br> ул. Москатова, д. 15
+        <?= $ADDRESS ?>
           <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
         </div>
 
         <div class="top_phone">   
-          <a class="mailLink" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a><br>
+          <a class="mailLink mailLink_top" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a><br>
           <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a>      
           <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
         </div>
