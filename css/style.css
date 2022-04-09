@@ -1,5 +1,8 @@
 .p-5{min-height:5px;padding-top: 5px;}.p-10{min-height:10px;padding-top: 10px;}.p-15{min-height:15px;padding-top: 15px;}.p-20{min-height:20px;padding-top: 20px;}.p-25{min-height:25px;padding-top: 25px;}.p-30{min-height:30px;padding-top: 30px;}.p-35{min-height:35px;padding-top: 35px;}.p-40{min-height:40px;padding-top: 40px;}.p-45{min-height:45px;padding-top: 45px;}.p-50{min-height:50px;padding-top: 50px;}.p-55{min-height:55px;padding-top: 55px;}.p-60{min-height:60px;padding-top: 60px;}.p-65{min-height:65px;padding-top: 65px;}.p-70{min-height:70px;padding-top: 70px;}.p-75{min-height:75px;padding-top: 75px;}.p-80{min-height:80px;padding-top: 80px;}.p-85{min-height:85px;padding-top: 85px;}.p-90{min-height:90px;padding-top: 90px;}.p-95{min-height:95px;padding-top: 95px;}.p-100{min-height:100px;padding-top: 100px;}.p-105{min-height:105px;padding-top: 105px;}.p-110{min-height:110px;padding-top: 110px;}.p-115{min-height:115px;padding-top: 115px;}.p-120{min-height:120px;padding-top: 120px;}.p-125{min-height:125px;padding-top: 125px;}.p-130{min-height:130px;padding-top: 130px;}.p-135{min-height:135px;padding-top: 135px;}.p-140{min-height:140px;padding-top: 140px;}.p-145{min-height:145px;padding-top: 145px;}.p-150{min-height:150px;padding-top: 150px;}.p-155{min-height:155px;padding-top: 155px;}
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     /* background: #fbfbfb; */
@@ -326,6 +329,7 @@ margin-bottom: 0px;
     top: 0;
     z-index: 100;
     border-radius: 0;
+    border: none;
 }
 
 .serviceMenu__logo-link {
@@ -1265,7 +1269,7 @@ font-size: 16px;
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .top_desc {
         display: none;
     }
@@ -1481,7 +1485,7 @@ font-size: 16px;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /* .container {
         padding-right: 25px;
@@ -1593,7 +1597,7 @@ font-size: 16px;
 
 
 
-@media (max-width: 570px) {
+@media (max-width: 575px) {
     
     .logo {
         width: 124px;
@@ -2476,8 +2480,39 @@ footer .footer-top .feedback_block .footer-notice .under_title {
     height: 40px;
 }
 
+@media (min-width: 768px) {
+    .serviceMenu__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .serviceMenu__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .serviceMenu__container .navbar-collapse.collapse {
+        width: 100%;
+        padding: 0;
+    }
+
+    .serviceMenu__container .navbar-collapse.collapse::before,
+    .serviceMenu__container .navbar-collapse.collapse::after {
+        content: none;
+    }
+
+    .nav.navbar-nav.serviceMenu__links::before,
+    .nav.navbar-nav.serviceMenu__links::after {
+        content: none;
+    }
+}
+
 .sertification-types-space {
-    padding: 70px 0 0;
+    height: 80px;
+    padding: 0;
 }
 
 .textcanvas {
