@@ -170,7 +170,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .top_mail {
         display: none;
     }
@@ -508,23 +508,7 @@
 
 
 
-@media (max-width: 768px) {
 
-    /* .container {
-        padding-right: 25px;
-        padding-left: 25px;
-        margin-right: auto;
-        margin-left: auto;
-    } */
-
-
-    .serviceMenu {
-        display: none;
-    }
-
-    
-
-}
 
 
 @media (max-width: 456px) {
