@@ -71,4 +71,30 @@
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=54078c0b380ec61dd2df2d3bdf11d842" charset="UTF-8" async></script>
 
 <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=54078c0b380ec61dd2df2d3bdf11d842" charset="UTF-8" async></script> -->
+
+
+<script>
+  const sections = document.querySelectorAll("section");
+  const navLi = document.querySelectorAll(".serviceMenu .nav.navbar-nav li");
+  window.onscroll = () => {
+    var current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (pageYOffset >= sectionTop - 80) {
+        current = section.getAttribute("id");
+        console.log(current);
+      }
+    });
+
+    console.log(navLi);
+    navLi.forEach((li) => {
+      li.classList.remove("active");
+      if ($(li).data('link') == current) {
+        li.classList.add("active");
+      }
+    });
+  };
+</script>

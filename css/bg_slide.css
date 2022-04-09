@@ -152,21 +152,20 @@
 
 @media (max-width: 991.98px) {
     .section .gallery-img {
-        height: 120px;
+        height: 200px;
     }
 
     .section .gallery-img a span {        
-        padding-right: 6rem;
     }
 
     .section .gallery-img a {
-        height: 120px;
+        height: 200px;
     }
 }
 
 
 @media (max-width: 1199.98px) {
     .section .gallery-img a span {
-        font-size: 1.36875rem;
+        font-size: 16px;
     }
 }
