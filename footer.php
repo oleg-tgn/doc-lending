@@ -74,9 +74,8 @@
 
 
     <section class="footer-bottom">
-      
         <div class="bottom-menu-wrapper">
-          <div class="container">        
+          <div class="container">
             <ul class="bottom-menu list-unstyled py-2">
               <li class="bottom-menu__item">
                 <a href="/" class="bottom-menu__link"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
@@ -88,16 +87,16 @@
               <li class="bottom-menu__item">
                 <a href="/#algorithm" class="bottom-menu__link">Алгоритм</a>
               </li>
-              <li>
+              <li class="bottom-menu__item">
                 <a href="/#guarantee" class="bottom-menu__link">Преимущества</a>
               </li>
-              <li lass="bottom-menu__item">
+              <li class="bottom-menu__item">
                 <a href="/#thanks" class="bottom-menu__link">Благодарности</a>
               </li>
-              <li lass="bottom-menu__item">
+              <li class="bottom-menu__item">
                 <a href="/#faq" class="bottom-menu__link">Вопросы</a>
               </li>
-              <li lass="bottom-menu__item">
+              <li class="bottom-menu__item">
                 <a href="/#contacts" class="bottom-menu__link">Контакты</a>
               </li>
             </ul>

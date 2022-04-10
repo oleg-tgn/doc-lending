@@ -309,6 +309,17 @@
 }
 
 @media (max-width: 767px) {
+  .cont1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .top_desc,
+  .top_address,
+  .top_phone {
+    font-size: 12px;
+  }
+
   .top_mail {
     display: none;
   }
@@ -387,7 +398,6 @@
     background: rgba(0, 0, 0, 0.32)
   }
 
-
   .sp-left {
     width: 100%;
     height: 530px;
@@ -398,13 +408,124 @@
     width: 100%;
   }
 
-
   .sp .btn_top {
     margin-top: 90px;
   }
+
+  .serviceMenu__container .navbar-header {
+    display: block;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .first_desc {
+    font-size: 14px;
+  }
+
+  .utp_text {
+    font-size: 11px;
+  }
+
+  .section .gallery-img {
+    height: 150px;
+  }
+
+  .algorithm_row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 60px;
+  }
+
+  .algorithm_arrow,
+  .algorithm_img {
+    display: none;
+  }
+
+  .algorithm_step {
+    width: 100%;
+  }
+
+  .algorithm_text {
+    text-align: left;
+    margin: 0;
+  }
+
+  .guarantee__image {
+    height: 180px;
+  }
+
+  .thanks__title {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .thanks_text {
+    font-size: 14px;
+  }
+
+  .thanks_face {
+    width: 80px;
+    height: 80px;
+  }
+
+  .thanks_customer__name {
+    font-size: 16px;
+  }
+
+  .thanks_signature {
+    font-size: 14px;
+  }
+
+  .faq {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .row-footer h2 {
+    margin-bottom: 20px;
+  }
+
+  .footer_item {
+    margin-bottom: 20px;
+  }
+
+  .footer_item img {
+    width: 40px;
+    float: left;
+    display: inline;
+  }
+
+  .footer_item p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 60px;
+  }
+
+  .row-footer {
+    padding: 70px 0 30px;
+  }
+
+  p.footer_textpopup {
+    font-size: 14px;
+  }
+
+  .bottom-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-menu__item {
+    margin-bottom: 10px;
+  }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .logo {
     width: 124px;
     height: 60px;
@@ -629,4 +750,4 @@
   .article-preview {
     max-width: 100%;
   }
-}
+} */

@@ -8,7 +8,14 @@
 }
 
 .section .gallery-img {
+    height: 120px;
     overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .section .gallery-img {
+        height: 200px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -132,17 +139,6 @@
     -moz-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
-
-@media (max-width: 991.98px) {
-    .section .gallery-img {
-        height: 200px;
-    }
-
-    .section .gallery-img a {
-        height: 200px;
-    }
-}
-
 
 @media (max-width: 1199.98px) {
     .section .gallery-img a span {
