@@ -1,29 +1,6 @@
-@font-face{
-    font-display:swap;font-family:Geometria;
-    src:url('../fonts/Geometria/Geometria-Light.woff') format("woff");
-    font-weight:300;
-    font-style:normal
-}
-@font-face{
-    font-display:swap;
-    font-family:Geometria;
-    src:url('../fonts/Geometria/Geometria.woff') format("woff");
-    font-weight:400;
-    font-style:normal
-}
-@font-face{
-    font-display:swap;
-    font-family:Geometria;
-    src:url('../fonts/Geometria/Geometria-Medium.woff') format("woff");
-    font-weight:500;
-    font-style:normal
-}
-@font-face{
-    font-display:swap;
-    font-family:Geometria;
-    src:url('../fonts/Geometria/Geometria-Bold.woff') format("woff");
-    font-weight:600;
-    font-style:normal
+.sertification-types-space {
+    height: 59px;
+    padding: 0;
 }
 
 .bg-slide-container {

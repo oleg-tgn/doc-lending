@@ -83,9 +83,8 @@
 
     sections.forEach((section) => {
       const sectionTop = section.offsetTop;
-      if (pageYOffset >= sectionTop - 80) {
+      if (pageYOffset >= sectionTop - 60) {
         current = section.getAttribute("id");
-        console.log(current);
       }
     });
 
