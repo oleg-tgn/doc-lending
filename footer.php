@@ -33,7 +33,7 @@
                     <input class="modal_input footer_inputpopup" type="text" name="feedback_name" required placeholder="Ваше имя">
                     <input class="modal_input footer_inputpopup" type="email" name="feedback_email" required placeholder="Ваш Email">
                     <textarea class="modal_input footer_inputpopup" name="feedback_text" id="" cols="30" rows="5" placeholder="Ваш отзыв"></textarea>
-                    <button type="submit" class="btn btn_top btn_top--call" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
+                    <button type="submit" class="btn btn_top btn_feedback" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
                 </form>
               <?php endif; ?>
             </div>
@@ -105,7 +105,7 @@
       </div>
 
       <div class="container">
-        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; ОФОРМЛЕНИЕ ВСЕХ ВИДОВ РАЗРЕШИТЕЛЬНЫХ ДОКУМЕНТОВ НА <span>ЛЮБЫЕ</span> ИЗДЕЛИЯ, СЫРЬЕ И ОБОРУДОВАНИЕ</p>
+        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
         <!-- <div class="top_mail">
             <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
             <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a> -->

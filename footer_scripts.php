@@ -88,7 +88,6 @@
       }
     });
 
-    console.log(navLi);
     navLi.forEach((li) => {
       li.classList.remove("active");
       if ($(li).data('link') == current) {

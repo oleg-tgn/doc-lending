@@ -1,6 +1,6 @@
 <div class="navbar-top-wrap">
   <div class="container cont1">        
-    <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; ОФОРМЛЕНИЕ ВСЕХ ВИДОВ РАЗРЕШИТЕЛЬНЫХ ДОКУМЕНТОВ НА <span>ЛЮБЫЕ</span> ИЗДЕЛИЯ, СЫРЬЕ И ОБОРУДОВАНИЕ</p>
+    <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
     <!-- <div class="top_mail">
         <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
         <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a> -->
