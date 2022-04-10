@@ -1650,9 +1650,8 @@ footer .footer-top .feedback_block .footer-notice .under_title {
 .bottom-menu__link,
 .bottom-menu__link:hover {
     height: 35px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
-    text-transform: uppercase;
 }
 
 .footer_list {
