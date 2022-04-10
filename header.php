@@ -45,7 +45,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand serviceMenu__logo-link" href="/"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
+        <a class="serviceMenu__logo-link" href="/"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
