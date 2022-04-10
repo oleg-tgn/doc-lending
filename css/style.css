@@ -304,8 +304,7 @@ footer .footer-top .feedback_block {
 }
 
 .feedback-c {
-  max-width: 500px;
-  margin: -80px;
+  margin: -80px 0 0 0;
 }
 
 .feedback-c.bg {
@@ -344,7 +343,6 @@ footer .footer-top .feedback_block {
 }
 
 .bottom-menu-wrapper {
-  padding: 30px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
