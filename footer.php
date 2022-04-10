@@ -86,7 +86,7 @@
                 <a href="/#sertification-types" class="bottom-menu__link">Сертификация</a>
               </li>
               <li class="bottom-menu__item">
-                <a href="/#algoritm" class="bottom-menu__link">Алгоритм</a>
+                <a href="/#algorithm" class="bottom-menu__link">Алгоритм</a>
               </li>
               <li>
                 <a href="/#guarantee" class="bottom-menu__link">Преимущества</a>

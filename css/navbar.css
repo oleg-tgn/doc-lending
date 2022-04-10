@@ -12,6 +12,7 @@
 
 .serviceMenu__container .navbar-header {
   display: flex;
+  align-items: center;
 }
 
 .serviceMenu__link {
@@ -36,23 +37,45 @@
   background-color: #080808;
 }
 
-@media (max-width: 767.99px) {
+.top_desc {
+  font-weight: 400;
+  float: left;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
   .serviceMenu__logo-link {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 0;
     font-size: 18px;
     line-height: 20px;
+  }
+
+  .bottom-menu__link,
+  .bottom-menu__link:hover {
+    height: 20px;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  .top_desc {
+    display: none;
   }
 }
 
 @media (min-width: 768px) {
+  .serviceMenu__logo-link .bottom-menu__link,
+  .serviceMenu__logo-link:hover .bottom-menu__link {
+    height: 25px;
+  }
+
   .serviceMenu__container .navbar-collapse.collapse {
     margin: 0 -15px;
   }
 
   .serviceMenu__logo-link {
-    margin-right: 60px;
+    margin-right: 20px;
   }
 
   .navbar-nav>li>a {
@@ -89,7 +112,36 @@
   }
 
   .nav>li>a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .top_desc {
+    font-size: 12px;
+    width: 40%;
+    padding: 5px 0 0;
+  }
+
+  .top_address,
+  .top_phone {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav>li>a {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .top_desc {
+    width: 500px;
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  .top_address,
+  .top_phone {
+    font-size: 14px;
   }
 }

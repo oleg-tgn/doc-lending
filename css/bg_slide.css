@@ -11,6 +11,12 @@
     overflow: hidden;
 }
 
+@media (min-width: 1200px) {
+    .section .gallery-img {
+        height: calc((100vh - 60px) / 3);
+    }
+}
+
 .section .gallery-img a {
     -webkit-transition: .5s;
     -o-transition: .5s;
