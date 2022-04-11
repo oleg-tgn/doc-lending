@@ -3,7 +3,7 @@
     <h2 class="text-center">Свяжитесь с нами <br class="hidden-xs">для бесплатной консультации:</h2>
     <div class="col-sm-4 footer_item">
       <img alt="СК Сертификат" src="img/icons/footer_1v2.png">
-      <p>Ростовская обл., г. Таганрог ул.&nbsp;Плотникова, д. 94а</p>
+      <p><?= $ADDRESS ?></p>
     </div>
     <div class="col-sm-4 footer_item">
       <img alt="СК Сертификат" src="img/icons/footer_2v2.png">
