@@ -31,10 +31,12 @@ try {
     $name  = $_POST['feedback_name'];
     $email = $_POST['feedback_email'];
     $text  = $_POST['feedback_text'];
+    $tel = $_POST['feedback_text'];
     $message = "<h1>Обратная связь</h1>
                 <p><b>Имя:</b> $name </p>
                 <p><b>Email:</b> $email</p>
-                <p><b>Сообщение:</b> $text</p>";
+                <p><b>Сообщение:</b> $text</p>
+                <p><b>Телефон:</b> $tel</p>";
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
