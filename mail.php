@@ -22,10 +22,11 @@ try {
     $mail->Password   = '78Tis4#';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->CharSet = 'UTF-8';
 
     //Recipients
     $mail->setFrom('sert.alfa@yandex.ru', 'Alfa Sert');  // от кого
-    $mail->addAddress('iiredii@mail.ru', 'Name'); // кому
+    $mail->addAddress('info_alfasert@mail.ru', 'Alfa Sertificat'); // кому
    
     $name  = $_POST['feedback_name'];
     $email = $_POST['feedback_email'];
