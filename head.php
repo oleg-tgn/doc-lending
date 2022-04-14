@@ -25,7 +25,6 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 
 <link rel="canonical" href="index.htm">

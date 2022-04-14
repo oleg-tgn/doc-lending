@@ -15,7 +15,7 @@
         </ol>
         <button class="btn btn_top anim-btn js-open-callbackkiller">Связаться с нами</button>
         <div class="cl"></div>
-      </div>
+      </div> 
     </div>
   </div>
 </section>
