@@ -486,3 +486,12 @@ footer .footer-top .feedback_block {
   border: none;
   font-size: 16px;
 }
+
+.attestation {
+  width: 100%;
+}
+
+.acreditationbox {
+  display: none; 
+  width: 500px;
+}

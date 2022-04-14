@@ -7,7 +7,7 @@
       <div class="col-12 col-md-6">
         <h2 class="guarantee__title">Почему вам стоит работать именно с&nbsp;нами?</h2>
         <ol class="guarantee__list">
-          <li class="care_p1">Мы аттестованный орган по Сертификации;</li>
+          <li class="care_p1">Мы аттестованный орган по <a data-fancybox href="#hidden">Сертификации</a>;</li>
           <li class="care_p1">Команда высококласных специалистов с многолетним опытом;</li>
           <li class="care_p1">Доставка оригиналов документов в течении 5 рабочих дней;</li>
           <li class="care_p1">Не теряем связь с клиентами, в том числе после завершения проекта;</li>
@@ -19,3 +19,34 @@
     </div>
   </div>
 </section>
+ 
+<div class="acreditationbox" id="hidden">
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img  class="attestation" alt="Аттестат аккредитации" src="/img/Acreditation.jpg">
+        </div>
+        <div class="swiper-slide">
+          <img  class="attestation" alt="Аттестат аккредитации" src="/img/aplication acreditation.jpg">
+        </div>
+
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+
+
+
+
+
+  
+</div>
