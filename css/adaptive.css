@@ -435,7 +435,7 @@
   .algorithm_row {
     display: flex;
     flex-direction: column;
-    margin: 10px 60px;
+    margin: 10px 60px 10px 30px;
   }
 
   .algorithm_arrow,
