@@ -495,3 +495,12 @@ footer .footer-top .feedback_block {
   display: none; 
   width: 500px;
 }
+
+.panel-heading {
+  padding: 0;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 20px;
+}
