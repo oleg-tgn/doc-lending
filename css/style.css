@@ -454,8 +454,23 @@ footer .footer-top .feedback_block {
   padding-bottom: 50px;
 }
 
-.map {
-  height: 518px;
+.map_desktop { 
+  display: none;
+}
+
+.map_mobile {
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .map_desktop {
+    display: block;
+    height: 518px;
+  }
+
+  .map_mobile {
+    display: none;
+  }
 }
 
 .feedback-c.bg {
