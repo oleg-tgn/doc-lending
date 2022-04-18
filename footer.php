@@ -72,20 +72,14 @@
 
     <div class="container">
       <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
-      <!-- <div class="top_mail">
-            <a class="mailLink" href="mailto:info@sk-sertifikat.ru">info@sk-sertifikat.ru</a><br>
-            <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a> -->
-      <!-- </div> -->
 
       <div class="top_address top_address--bottom">
         <?= $ADDRESS ?>
-        <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
       </div>
 
       <div class="top_phone top_phone--bottom">
-        <a class="mailLink_top mailLink--bottom" href="mailto:info@sk-sertifikat.ru">info_alfasert@mail.ru</a><br>
+        <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>"><?=$EMAIL?></a><br>
         <a class="mailLink mailLink--bottom" href="tel:+79043433544">+7 (904) 343-35-44</a>
-        <!-- <p class="phone_perezvon" data-toggle="modal" data-target="#modalPerezvon">Перезвоните мне →</p> -->
       </div>
     </div>
     </div>

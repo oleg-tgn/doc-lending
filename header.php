@@ -6,7 +6,7 @@
     </div>
 
     <div class="top_phone">
-      <a class="mailLink mailLink_top" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a><br>
+      <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>"><?=$EMAIL?></a><br>
       <a class="mailLink" href="tel:+79043433544">+7 (904) 343-35-44</a>
     </div>
   </div>
