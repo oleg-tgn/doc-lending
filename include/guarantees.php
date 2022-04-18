@@ -1,7 +1,3 @@
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-/>
 <section class="row-fluid row3" id="guarantee">
   <div class="container-fluid">
     <div class="guarantee__row">
@@ -29,4 +25,4 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
