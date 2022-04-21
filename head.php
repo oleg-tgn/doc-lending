@@ -43,3 +43,5 @@
 
 <link href="/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
