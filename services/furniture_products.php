@@ -13,7 +13,7 @@
     <div class="container">
       <div id="breadcrumbs" class="breadcrumbs">
         <span>
-            <a title="Главная" href="/index.php"><span class="hidden-xs">СК Сертификат</span></a>
+            <a title="Главная" href="/index.php"><span class="hidden-xs">Альфа Сертификат</span></a>
         </span>
         <span class="bc-arrow">→</span>
         <span>Мебельная продукция</span>
