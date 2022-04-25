@@ -79,7 +79,11 @@
 
       <div class="top_phone top_phone--bottom">
         <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>"><?=$EMAIL?></a><br>
-        <a class="mailLink mailLink--bottom" href="tel:+79043433544">+7 (904) 343-35-44</a>
+        <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+        <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+        <a class="mailLink mailLink--bottom" href="tel:+78002011935">
+          <?= $TELEPHONE ?>
+        </a>
       </div>
     </div>
     </div>

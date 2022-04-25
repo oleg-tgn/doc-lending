@@ -55,7 +55,7 @@ body {
   position: relative;
   color: #333;
   text-decoration: none;
-  padding-left: 24px;
+  padding-left: 5px;
   float: right;
 }
 
@@ -518,4 +518,8 @@ footer .footer-top .feedback_block {
 .panel-title > a {
   display: block;
   padding: 20px;
+}
+
+.tel_logo {
+  height: 15px;
 }

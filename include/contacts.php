@@ -7,7 +7,9 @@
     </div>
     <div class="col-sm-4 footer_item">
       <img alt="Альфа Сертификат" src="img/icons/footer_2v2.png">
-      <p><span><a class="call_link" href="tel:+74952041287">+7 (904) 343-35-44</a></span><br><span><a class="call_link" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a></span></p>
+      <p><span><a class="call_link" href="tel:+74952041287">
+        <?= $TELEPHONE ?>
+      </a></span><br><span><a class="call_link" href="mailto:info_alfasert@mail.ru">info_alfasert@mail.ru</a></span></p>
     </div>
     <div class="col-sm-4 footer_item">
       <img alt="Альфа Сертификат" src="img/icons/footer_3v2.png">
