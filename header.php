@@ -6,10 +6,10 @@
     </div>
 
     <div class="top_phone">
-      <a href="https://web.telegram.org/">
+      <a target="_blank" href="https://t.me/+79043433544">
         <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
       </a>
-      <a href="https://api.whatsapp.com/">
+      <a target="_blank" href="https://wa.me/+79043433544">
         <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
       </a>
       <a class="mailLink" href="tel:+78002011935">
