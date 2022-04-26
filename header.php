@@ -11,6 +11,7 @@
         Написать в WhatsApp
       </a><br>
       <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
+        <img class="tel_logo" alt="mail" src="/img/icons/mail.svg">
         <?=$EMAIL?>
       </a>
     </div>

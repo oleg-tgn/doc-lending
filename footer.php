@@ -88,6 +88,7 @@
           <?= $TELEPHONE ?>
         </a><br>
         <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>">
+          <img class="tel_logo" alt="mail" src="/img/icons/mail_w.svg">
           <?=$EMAIL?>
         </a>
       </div>
