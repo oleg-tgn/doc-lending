@@ -71,6 +71,15 @@ body {
   color: #fff;
 }
 
+.telephone_link {
+  padding-top: 5px;
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  float: right;
+  font-size: 21px;
+}
+
 .top_address {
   float: right;
   text-align: right;
@@ -86,6 +95,12 @@ body {
 .top_phone {
   float: right;
   text-align: right;
+}
+
+.top_telephone {
+  float: right;
+  text-align: right;
+  padding: 0 40px 0;
 }
 
 .cont1_1 {
@@ -522,4 +537,9 @@ footer .footer-top .feedback_block {
 
 .tel_logo {
   height: 15px;
+}
+
+.heder_callmy {
+  color: #337ab7;
+  text-align: none;
 }

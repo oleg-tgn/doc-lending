@@ -1,26 +1,38 @@
 <div class="navbar-top-wrap">
   <div class="container cont1">
+
+    <div class="top_phone">
+      <a class="mailLink mailLink_top" target="_blank" href="https://t.me/+79043433544">
+        <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+        Написать в Telegram
+      </a><br>
+      <a class="mailLink mailLink_top" target="_blank" href="https://wa.me/+79043433544">
+        <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+        Написать в WhatsApp
+      </a><br>
+      <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
+        <?=$EMAIL?>
+      </a>
+    </div>
+
+    <div class="top_telephone">
+      <a class="telephone_link" href="tel:+78002011935">
+        <?= $TELEPHONE ?>
+      </a><br>
+      <a class="heder_callmy js-open-callbackkiller" href="#">
+        Перезвоните мне
+      </a>
+    </div>
+
     <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
+    
     <div class="top_address">
       <?= $ADDRESS ?>
     </div>
 
-    <div class="top_phone">
-      <a target="_blank" href="https://t.me/+79043433544">
-        <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
-      </a>
-      <a target="_blank" href="https://wa.me/+79043433544">
-        <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
-      </a>
-      <a class="mailLink" href="tel:+78002011935">
-        <?= $TELEPHONE ?>
-      </a><br>
-      <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
-        <?=$EMAIL?>
-      </a><br>
-    </div>
   </div>
 </div>
+
 
 <nav class="navbar navbar-inverse serviceMenu">
   <div class="container">
