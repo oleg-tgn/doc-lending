@@ -6,12 +6,18 @@
     </div>
 
     <div class="top_phone">
-      <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>"><?=$EMAIL?></a><br>
-      <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
-      <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+      <a href="https://web.telegram.org/">
+        <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+      </a>
+      <a href="https://api.whatsapp.com/">
+        <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+      </a>
       <a class="mailLink" href="tel:+78002011935">
         <?= $TELEPHONE ?>
-      </a>
+      </a><br>
+      <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
+        <?=$EMAIL?>
+      </a><br>
     </div>
   </div>
 </div>

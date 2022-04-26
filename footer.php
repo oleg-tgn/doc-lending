@@ -78,11 +78,17 @@
       </div>
 
       <div class="top_phone top_phone--bottom">
-        <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>"><?=$EMAIL?></a><br>
+      <a href="https://web.telegram.org/">
         <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+      </a>
+      <a href="https://api.whatsapp.com/">
         <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+      </a>
         <a class="mailLink mailLink--bottom" href="tel:+78002011935">
           <?= $TELEPHONE ?>
+        </a><br>
+        <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>">
+          <?=$EMAIL?>
         </a>
       </div>
     </div>
