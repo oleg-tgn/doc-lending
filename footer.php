@@ -80,7 +80,7 @@
           <img class="tel_logo" alt="mail" src="/img/icons/mail_w.svg">
           <?=$EMAIL?>
         </a><br>
-        <a class="mailLink mailLink--bottom" target="_blank" href="https://t.me/+79043433544">
+        <a class="mailLink mailLink--bottom" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
           <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
           Написать в Telegram
         </a><br>
