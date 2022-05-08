@@ -306,6 +306,27 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* .shell_descTop{
+    max-width: 600px;
+  } */
+
+  /* .top_telephone {
+    padding: 0 auto;
+    text-align: center;
+  } */
+
+  .top_address__computer {
+    display: none;
+  }
+
+  .top_address__laptop {
+    display: block;
+  }
+
+  .socweb {
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -522,6 +543,15 @@
 
   .bottom-menu__item {
     margin-bottom: 10px;
+  }
+
+  .top_telephone {
+    text-align: left;
+    padding: 0;
+  }
+
+  .telephone_link {
+    font-size: 18px;
   }
 }
 
