@@ -553,6 +553,29 @@
   .telephone_link {
     font-size: 18px;
   }
+
+  .top_telephone__computer {
+    display: none;
+  }
+
+  .top_telephone__mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 348px) {
+
+  .telephone_link {
+    font-size: 16px;
+  }
+
+  .mailLink {
+    font-size: 9px;
+  }
+
+  .top_address__laptop {
+    font-size: 9px;
+  }
 }
 
 /* @media (max-width: 576px) {

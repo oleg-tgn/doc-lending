@@ -109,6 +109,10 @@ body {
   padding: 0 40px 0;
 }
 
+.top_telephone__mobile {
+  display: none;
+}
+
 .cont1_1 {
   position: relative;
   padding-top: 40px;
