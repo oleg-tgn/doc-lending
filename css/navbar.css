@@ -115,13 +115,10 @@
     padding-right: 15px;
   }
 
-  .descwrap {
-    width: 34%;
-  }
-
   .top_desc {
     font-size: 12px;
     padding: 5px 0 0;
+    display: none;
   }
 
   .top_address,
@@ -144,6 +141,7 @@
     /* width: 500px; */
     font-size: 14px;
     padding: 8px 0;
+    display: block;
   }
 
   .top_address,

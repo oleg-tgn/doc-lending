@@ -1,9 +1,28 @@
 <div class="navbar-top-wrap">
-  <div class="container cont1">
+  <div class="container">
 
-    <div class="descwrap">
-      <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
-      <div class="top_telephone top_telephone__mobile">
+    <div class="cont1">
+
+      <div class="descwrap">
+        <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
+        <div class="top_telephone top_telephone__mobile">
+          <a class="telephone_link" href="tel:+78002011935">
+            <?= $TELEPHONE ?>
+          </a><br>
+          <a class="heder_callmy js-open-callbackkiller" href="#">
+            Перезвоните мне
+          </a>
+        </div>
+        <div class="top_address top_address__laptop">
+          <?= $ADDRESS ?>
+        </div>
+      </div>
+
+      <div class="top_address top_address__computer">
+        <?= $ADDRESS ?>
+      </div>
+
+      <div class="top_telephone top_telephone__computer">
         <a class="telephone_link" href="tel:+78002011935">
           <?= $TELEPHONE ?>
         </a><br>
@@ -11,43 +30,28 @@
           Перезвоните мне
         </a>
       </div>
-      <div class="top_address top_address__laptop">
-        <?= $ADDRESS ?>
-      </div>
-    </div>
 
-    <div class="top_address top_address__computer">
-      <?= $ADDRESS ?>
-    </div>
-
-    <div class="top_telephone top_telephone__computer">
-      <a class="telephone_link" href="tel:+78002011935">
-        <?= $TELEPHONE ?>
-      </a><br>
-      <a class="heder_callmy js-open-callbackkiller" href="#">
-        Перезвоните мне
-      </a>
-    </div>
-
-    <div class="top_phone">
-      <div class="socweb">
-        <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
-          <?=$EMAIL?>
-          <img class="tel_logo" alt="mail" src="/img/icons/mail.svg">
-        </a>
+      <div class="top_phone">
+        <div class="socweb">
+          <a class="mailLink mailLink_top" href="mailto:<?=$EMAIL?>">
+            <?=$EMAIL?>
+            <img class="tel_logo" alt="mail" src="/img/icons/mail.svg">
+          </a>
+        </div>
+        <div class="socweb">
+          <a class="mailLink mailLink_top" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
+            Написать в Telegram
+            <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+          </a>
+        </div>
+        <div class="socweb">
+          <a class="mailLink mailLink_top" target="_blank" href="https://wa.me/+79043433544">
+            Написать в WhatsApp
+            <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+          </a>
+        </div>
       </div>
-      <div class="socweb">
-        <a class="mailLink mailLink_top" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
-          Написать в Telegram
-          <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
-        </a>
-      </div>
-      <div class="socweb">
-        <a class="mailLink mailLink_top" target="_blank" href="https://wa.me/+79043433544">
-          Написать в WhatsApp
-          <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
-        </a>
-      </div>
+      
     </div>
 
   </div>

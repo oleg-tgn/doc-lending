@@ -325,7 +325,7 @@
   }
 
   .socweb {
-    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
@@ -333,6 +333,10 @@
   .cont1 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .socweb {
+    margin-bottom: 10px;
   }
 
   .top_desc,
@@ -364,7 +368,6 @@
     margin-right: auto;
     display: block;
   }
-
 
   .more_info1 {
     text-align: center;
