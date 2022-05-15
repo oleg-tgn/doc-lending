@@ -63,7 +63,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .serviceMenu__logo-link .bottom-menu__link,
   .serviceMenu__logo-link:hover .bottom-menu__link {
     height: 25px;
@@ -138,7 +138,7 @@
   }
 
   .top_desc {
-    /* width: 500px; */
+    width: 465px;
     font-size: 14px;
     padding: 8px 0;
     display: block;

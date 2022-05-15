@@ -289,13 +289,14 @@
 
   .footer-bottom .mailLink--bottom,
   .footer-bottom .top_address--bottom {
+    display: block;
     font-size: 12px;
   }
 
-  .footer-bottom .top_phone--bottom,
+  /* .footer-bottom .top_phone--bottom,
   .footer-bottom .top_address--bottom {
     padding-top: 5px;
-  }
+  } */
 
   .btn_top.btn_feedback {
     font-size: 16px;
@@ -306,15 +307,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  /* .shell_descTop{
-    max-width: 600px;
-  } */
-
-  /* .top_telephone {
-    padding: 0 auto;
-    text-align: center;
-  } */
 
   .top_address__computer {
     display: none;
@@ -564,6 +556,10 @@
   .top_telephone__mobile {
     display: block;
   }
+
+    .bottom-menu-wrapper {
+    display: none;
+  }
 }
 
 @media (max-width: 348px) {
@@ -579,231 +575,12 @@
   .top_address__laptop {
     font-size: 9px;
   }
+
+  .telephone_link_bot {
+    font-size: 16px;  
+  }
+
+  .footer-bottom .mailLink--bottom, .footer-bottom .top_address--bottom {
+    font-size: 9px;
+  }
 }
-
-/* @media (max-width: 576px) {
-  .logo {
-    width: 124px;
-    height: 60px;
-  }
-
-  .top_mail {
-    display: block;
-  }
-
-  .top_mail br {
-    display: none;
-  }
-
-  .mailLink {
-    display: block;
-    width: 190px;
-    margin: 0px auto;
-    float: none;
-  }
-
-  .mailLink.mailLink--bottom {
-    color: #fff !important;
-  }
-
-  .whatsappLink {
-    display: block;
-    width: 210px;
-    margin: 0px auto;
-    float: none;
-  }
-
-  .download {
-    font-size: 14px;
-  }
-
-
-  .cont1:before {
-    display: none;
-  }
-
-  .logo {
-    float: none;
-    margin: 10px auto;
-    display: block;
-  }
-
-  .top_desc {
-    display: none;
-  }
-
-  .top_mail {
-    width: 100%;
-    padding: 0px;
-    text-align: center;
-  }
-
-
-  .top_phone {
-    width: 100%;
-    text-align: center;
-    margin: 10px auto 0px;
-  }
-
-
-
-  h1 {
-    font-size: 25px;
-    text-align: center;
-    padding-right: 0px;
-  }
-
-  .first_desc {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .utp {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .utp img {
-    display: inline-block;
-  }
-
-  .utp_text {
-    font-size: 14px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 10px;
-    width: 250px;
-    text-align: left;
-  }
-
-  .utp_text br {
-    display: none;
-  }
-
-  .btn_top {
-    width: 100%;
-    font-size: 15px;
-    padding: 20px 10px;
-  }
-
-  .glav_sert {
-    width: 90%;
-    margin: 30px 5%;
-  }
-
-  .more_info1 h3 {
-    font-size: 25px;
-  }
-
-
-  .ne_nashli_p1 {
-    font-size: 19px;
-  }
-
-
-  .ne_nashli_btn {
-    margin: 12px auto;
-    display: block;
-  }
-
-  .c2_h {
-    font-size: 17px;
-    margin-top: 40px;
-  }
-
-  .search_input {
-    font-size: 14px;
-    padding: 20px 50px 20px 20px;
-  }
-
-
-  .search_btn {
-    height: 60px;
-    width: 60px;
-    margin-left: -60px;
-    background-size: 25px;
-  }
-
-  .row3 {
-    padding: 50px 0px 40px;
-    background-size: cover;
-  }
-
-  .speech h3 {
-    margin-top: 40px;
-    font-size: 20px;
-  }
-
-
-  .ne_nashli_btn:hover,
-  .ne_nashli_btn:focus,
-  .ne_nashli_btn:active,
-  .ne_nashli_btn:visited {
-    margin-top: 15px;
-  }
-
-  .faq_btn {
-    padding-left: 55px;
-    width: 270px;
-    letter-spacing: 5px;
-  }
-
-  .faq_btn span {
-    font-size: 16px;
-  }
-
-  .phone_perezvon {
-    margin-top: 10px;
-  }
-
-  .modal_input {
-    width: 100%;
-  }
-
-  .modal-body .btn_top {
-    width: 100%;
-  }
-
-  .modal-body>div {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .team_col img {
-    width: 110px;
-    margin-top: 20px;
-  }
-
-  .sp-left {
-    width: 100%;
-    height: 310px;
-  }
-
-  .sp {
-
-    padding: 20px 10px;
-  }
-
-  .sp h3 {
-    font-size: 20px;
-  }
-
-  .more_info1 div {
-    width: 100% !important;
-  }
-
-  .row-team h2 {
-    margin-bottom: 20px;
-  }
-
-  .team_col {
-    margin-bottom: 10px;
-    width: 100% !important;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .article-preview {
-    max-width: 100%;
-  }
-} */

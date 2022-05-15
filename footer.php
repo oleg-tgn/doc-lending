@@ -71,36 +71,53 @@
     </div>
 
     <div class="container">
-      <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
 
+      <d  iv class="cont1 bottom_wrapper">
+                  
+        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
 
+        <div class="top_address top_address--bottom top_address__laptop">
+          <div class="top_telephone top_telephone__mobile">
+            <a class="telephone_link_bot" href="tel:+78002011935">
+              <?= $TELEPHONE ?>
+            </a><br>
+            <a class="heder_callmy js-open-callbackkiller" href="#">
+              Перезвоните мне
+            </a>
+          </div>
+          <div class="top_address top_address__laptop">
+            <?= $ADDRESS ?>
+          </div>
+        </div>
 
-      <div class="top_phone top_phone--bottom">
-        <a class="mailLink_top mailLink--bottom" href="mailto:<?=$EMAIL?>">
-          <img class="tel_logo" alt="mail" src="/img/icons/mail_w.svg">
-          <?=$EMAIL?>
-        </a><br>
-        <a class="mailLink mailLink--bottom" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
-          <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
-          Написать в Telegram
-        </a><br>
-        <a class="mailLink mailLink--bottom" target="_blank" href="https://wa.me/+79043433544">
-          <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
-          Написать в WhatsApp
-        </a>
-      </div>
+        <div class="top_address top_address__computer bot_addres">
+          <?= $ADDRESS ?>
+        </div>
 
-      <div class="top_telephone">
-        <a class="telephone_link_bot" href="tel:+78002011935">
-          <?= $TELEPHONE ?>
-        </a><br>
-        <a class="heder_callmy js-open-callbackkiller" href="#">
-          Перезвоните мне
-        </a>
-      </div>
+        <div class="top_telephone top_telephone__computer">
+          <a class="telephone_link_bot" href="tel:+78002011935">
+            <?= $TELEPHONE ?>
+          </a><br>
+          <a class="heder_callmy js-open-callbackkiller" href="#">
+            Перезвоните мне
+          </a>
+        </div>
 
-      <div class="top_address top_address--bottom">
-        <?= $ADDRESS ?>
+        <div class="top_phone top_phone--bottom">
+          <a class="mailLink_top mailLink--bottom socweb" href="mailto:<?=$EMAIL?>">
+            <?=$EMAIL?>
+            <img class="tel_logo" alt="mail" src="/img/icons/mail_w.svg">
+          </a>
+          <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
+            Написать в Telegram
+            <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
+          </a>
+          <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://wa.me/+79043433544">
+            Написать в WhatsApp
+            <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+          </a>
+        </div>
+
       </div>
 
     </div>

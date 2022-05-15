@@ -57,13 +57,13 @@ body {
   position: relative;
   color: #333;
   text-decoration: none;
-  padding-left: 5px;
 }
 
 .mailLink--bottom,
 .mailLink--bottom:hover,
 .mailLink--bottom:focus,
 .mailLink--bottom:active {
+  display: block;
   font-size: 14px;
   color: #fff;
 }
@@ -81,7 +81,6 @@ body {
   position: relative;
   color: #333;
   text-decoration: none;
-  float: right;
   color: #fff;
   font-size: 21px;
 }
@@ -89,6 +88,10 @@ body {
 .top_address {
   text-align: left;
   padding-top: 5px;
+}
+
+.bot_addres {
+  color: #fff;
 }
 
 .top_address__laptop {
@@ -371,6 +374,12 @@ footer .footer-top .feedback_block {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .bottom_wrapper {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+  }
 }
 
 .bottom-menu {
