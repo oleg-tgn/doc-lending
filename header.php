@@ -6,7 +6,7 @@
       <div class="descwrap">
         <p class="top_desc">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
         <div class="top_telephone top_telephone__mobile">
-          <a class="telephone_link" href="tel:+78002011935">
+          <a class="telephone_link" href="tel:+78002019235">
             <?= $TELEPHONE ?>
           </a><br>
           <a class="heder_callmy js-open-callbackkiller" href="#">

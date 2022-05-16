@@ -95,7 +95,7 @@
         </div>
 
         <div class="top_telephone top_telephone__computer">
-          <a class="telephone_link_bot" href="tel:+78002011935">
+          <a class="telephone_link_bot" href="tel:+78002019235">
             <?= $TELEPHONE ?>
           </a><br>
           <a class="heder_callmy js-open-callbackkiller" href="#">
