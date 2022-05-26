@@ -319,22 +319,39 @@
   .socweb {
     margin-bottom: 5px;
   }
+
+  .top_desc {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 767px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+
   .cont1 {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .socweb {
     margin-bottom: 10px;
   }
 
+  .mailLink_top.mailLink--bottom.mail-bottom_mobile.socweb {
+    display: none;
+  }
+
   .top_desc,
   .top_address,
   .top_phone {
-    font-size: 12px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
   }
 
   .top_mail {
@@ -546,11 +563,7 @@
   }
 
   .telephone_link {
-    font-size: 18px;
-  }
-
-  .top_telephone__computer {
-    display: none;
+    font-size: 14px;
   }
 
   .top_telephone__mobile {
@@ -560,9 +573,36 @@
     .bottom-menu-wrapper {
     display: none;
   }
+
+  .top_telephone-link {
+    text-align: right;
+  }
+
+  .top_telephone {
+    justify-content: end;
+  }
+
+  .socweb {
+    margin-bottom: 0;
+  }
+
+  .navbar-top-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+  }
+
+  .bg {
+    padding-bottom: 80px;
+  }
+
+  .serviceMenu {
+    top: 70px;
+  }
 }
 
-@media (max-width: 348px) {
+/* @media (max-width: 348px) {
 
   .telephone_link {
     font-size: 16px;  
@@ -583,4 +623,4 @@
   .footer-bottom .mailLink--bottom, .footer-bottom .top_address--bottom {
     font-size: 9px;
   }
-}
+} */

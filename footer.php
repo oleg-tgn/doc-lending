@@ -23,12 +23,12 @@
                     Спасибо за ваш отзыв!
                   </div>
                 <?php else : ?>
-                  <p class="footer_textpopup">Напишите свой отзыв о нашей работе:</p>
+                  <!-- <p class="footer_textpopup">Напишите свой отзыв о нашей работе:</p> -->
                   <form action="/mail.php" method="POST" class="modal_form footer_form">
                     <input class="modal_input footer_inputpopup" type="text" name="feedback_name" required placeholder="Ваше имя">
                     <input class="modal_input footer_inputpopup" type="email" name="feedback_email" required placeholder="Ваш Email">
                     <input class="modal_input footer_inputpopup" type="tel" name="feedback_tel" required placeholder="Ваш телефон">
-                    <textarea class="modal_input footer_inputpopup" name="feedback_text" id="" cols="30" rows="5" placeholder="Ваш отзыв"></textarea>
+                    <!-- <textarea class="modal_input footer_inputpopup" name="feedback_text" id="" cols="30" rows="5" placeholder="Ваш отзыв"></textarea> -->
                     <button type="submit" class="btn btn_top btn_feedback" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
                   </form>
                 <?php endif; ?>
@@ -74,47 +74,26 @@
 
       <d  iv class="cont1 bottom_wrapper">
                   
-        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo; оформление всех видов разрешительных документов на <span>любые</span> изделия, сырье и оборудование</p>
+        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo;<br>ОГРН 1216100034215 от 08.12.2021г<br>ИНН 6154161721</p>
 
-        <div class="top_address top_address--bottom top_address__laptop">
-          <div class="top_telephone top_telephone__mobile">
-            <a class="telephone_link_bot" href="tel:+78002019235">
-              <?= $TELEPHONE ?>
-            </a><br>
-            <a class="heder_callmy js-open-callbackkiller" href="#">
-              Перезвоните мне
-            </a>
-          </div>
-          <div class="top_address top_address__laptop">
-            <?= $ADDRESS ?>
-          </div>
-        </div>
-
-        <div class="top_address top_address__computer bot_addres">
-          <?= $ADDRESS ?>
-        </div>
-
-        <div class="top_telephone top_telephone__computer">
-          <a class="telephone_link_bot" href="tel:+78002019235">
-            <?= $TELEPHONE ?>
-          </a><br>
-          <a class="heder_callmy js-open-callbackkiller" href="#">
-            Перезвоните мне
-          </a>
-        </div>
-
-        <div class="top_phone top_phone--bottom">
-          <a class="mailLink_top mailLink--bottom socweb" href="mailto:<?=$EMAIL?>">
-            <?=$EMAIL?>
-            <img class="tel_logo" alt="mail" src="/img/icons/mail_w.svg">
-          </a>
+        <div class="top_telephone top_telephone hidden-on-mobile">
           <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
-            Написать в Telegram
             <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
           </a>
           <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://wa.me/+79043433544">
-            Написать в WhatsApp
             <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+          </a>
+          <div>
+            <a class="telephone_link_bot" href="tel:+78002019235">
+              <?= $TELEPHONE ?>
+            </a>
+          </div>
+        </div>
+
+        <div class="top_address top_address bot_addres">
+          <?= $ADDRESS ?>
+          <a class="mailLink_top mailLink--bottom mail-bottom_mobile socweb" href="mailto:<?=$EMAIL?>">
+            <?=$EMAIL?>
           </a>
         </div>
 
