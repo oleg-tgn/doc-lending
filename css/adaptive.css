@@ -602,6 +602,30 @@
   }
 }
 
+@media (min-width: 375px) and (max-width: 768px) {
+  .navbar-top-wrap .cont1 {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .navbar-top-wrap .top_phone {
+    margin-top: 0;
+  }
+
+  .navbar-top-wrap .mailLink {
+    color: rgb(51, 51, 51);
+  }
+
+  .serviceMenu {
+    top: 40px;
+  } 
+
+  .tel_logo--Whatsapp {
+    height: 25px;
+    margin-top: -2px;
+  }
+}
+
 /* @media (max-width: 348px) {
 
   .telephone_link {

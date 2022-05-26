@@ -15,7 +15,7 @@
           <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
         </a>
         <a class="mailLink mailLink_top" target="_blank" href="https://wa.me/+79043433544">
-          <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
+          <img class="tel_logo tel_logo--Whatsapp" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
         </a>
         <div>
           <a class="telephone_link" href="tel:+78002019235">
