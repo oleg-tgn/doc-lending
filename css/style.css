@@ -562,11 +562,18 @@ footer .footer-top .feedback_block {
 }
 
 .tel_logo {
-  height: 20px;
+  height: 23px;
   margin-right: 10px;
+  margin-top: 3px;
+}
+
+.tel_logo--Whatsapp {
+  height: 27px;
+  margin-top: 1px;
 }
 
 .heder_callmy {
+  display: block;
   color: #337ab7;
   text-align: none;
   font-size: 14px;
@@ -575,4 +582,18 @@ footer .footer-top .feedback_block {
 .top_desc {
   font-size: 14px;
   display: block;
+}
+
+.hiddenPhone {
+  width: 160px;
+  font-size: 21px;
+}
+
+.top_telephone .telephone_link {
+  display: none;
+  width: 160px;
+}
+
+.emailHeader {
+  display: none;
 }
