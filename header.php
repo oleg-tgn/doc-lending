@@ -18,9 +18,9 @@
           <img class="tel_logo tel_logo--Whatsapp" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
         </a>
         <div>
-          <div class="hiddenPhone" id="hiddenPhone"> 8 800...<a href="#" onclick="showPhone()">Показать</a> </div>
+          <div class="hiddenPhone" id="hiddenPhoneHeader"> 8 800...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenPhoneHeader', '#phoneHeader')">Показать</a> </div>
 
-          <a class="telephone_link" href="tel:+78002019235" id="telephone_link">
+          <a id="phoneHeader" class="telephone_link" href="tel:+78002019235" id="telephone_link">
             <?= $TELEPHONE ?>
           </a>
           <a class="heder_callmy js-open-callbackkiller hidden-on-mobile" href="#">
@@ -34,7 +34,7 @@
           <?= $ADDRESS ?>
         </div>
         <div class="socweb">
-          <div class="hiddenEmail" id="hiddenEmailHeader"> info@...<a href="#" onclick="event.preventDefault(); showEmail('#hiddenEmailHeader', '#showEmailHeader')">Показать</a> </div>
+          <div class="hiddenEmail" id="hiddenEmailHeader"> info@...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenEmailHeader', '#showEmailHeader')">Показать</a> </div>
 
           <a id="showEmailHeader" class="mailLink mailLink_top emailHeader" href="mailto:<?=$EMAIL?>">
             <?=$EMAIL?>

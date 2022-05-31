@@ -589,11 +589,24 @@ footer .footer-top .feedback_block {
   font-size: 21px;
 }
 
-.top_telephone .telephone_link {
+.top_telephone .telephone_link,
+.telephone_link_bot {
   display: none;
   width: 160px;
 }
 
+.phone-footer-wrap .hiddenPhone {
+  color: #fff;
+}
+
+.telephone_link_bot:hover {
+  color:#3099e9;
+}
+
 .emailHeader {
   display: none;
+}
+
+footer a:hover {
+  color:#3099e9;
 }

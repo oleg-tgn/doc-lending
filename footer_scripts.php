@@ -112,13 +112,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
 <script>
-  function showPhone() {
-   $('#hiddenPhone').hide();
-   $('#telephone_link').css("display", "block");
-  }
-
-  function showEmail(idHide, idShow) {
-    console.log(idShow, )
+  function showHiddenInfo(idHide, idShow) {
    $(idHide).hide();
    $(idShow).css("display", "block");
   }
