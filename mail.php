@@ -29,12 +29,11 @@ try {
     $mail->addAddress('info_alfasert@mail.ru', 'Alfa Sertificat'); // кому
    
     $name  = $_POST['feedback_name'];
-    $email = $_POST['feedback_email'];
+    //$email = $_POST['feedback_email'];
     // $text  = $_POST['feedback_text'];
     $tel = $_POST['feedback_text'];
     $message = "<h1>Обратная связь</h1>
                 <p><b>Имя:</b> $name </p>
-                <p><b>Email:</b> $email</p>
                 <p><b>Телефон:</b> $tel</p>";
 
     //Content

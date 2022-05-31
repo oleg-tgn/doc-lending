@@ -26,7 +26,7 @@
                   <!-- <p class="footer_textpopup">Напишите свой отзыв о нашей работе:</p> -->
                   <form action="/mail.php" method="POST" class="modal_form footer_form">
                     <input class="modal_input footer_inputpopup" type="text" name="feedback_name" required placeholder="Ваше имя">
-                    <input class="modal_input footer_inputpopup" type="email" name="feedback_email" required placeholder="Ваш Email">
+                    <!-- <input class="modal_input footer_inputpopup" type="email" name="feedback_email" required placeholder="Ваш Email"> -->
                     <input class="modal_input footer_inputpopup" type="tel" name="feedback_tel" required placeholder="Ваш телефон">
                     <!-- <textarea class="modal_input footer_inputpopup" name="feedback_text" id="" cols="30" rows="5" placeholder="Ваш отзыв"></textarea> -->
                     <button type="submit" class="btn btn_top btn_feedback" onclick="wsKiller.checkFormOnSubmit($(this).closest('form'))">Отправить</button>
