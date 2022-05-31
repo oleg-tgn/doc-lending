@@ -34,9 +34,9 @@
           <?= $ADDRESS ?>
         </div>
         <div class="socweb">
-        <div class="hiddenEmail" id="hiddenEmail"> info@...<a href="#" onclick="showEmail()">Показать</a> </div>
+          <div class="hiddenEmail" id="hiddenEmailHeader"> info@...<a href="#" onclick="event.preventDefault(); showEmail('#hiddenEmailHeader', '#showEmailHeader')">Показать</a> </div>
 
-          <a id="mailLink" class="mailLink mailLink_top emailHeader" href="mailto:<?=$EMAIL?>">
+          <a id="showEmailHeader" class="mailLink mailLink_top emailHeader" href="mailto:<?=$EMAIL?>">
             <?=$EMAIL?>
           </a>
         </div>

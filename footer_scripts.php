@@ -117,8 +117,9 @@
    $('#telephone_link').css("display", "block");
   }
 
-  function showEmail() {
-   $('#hiddenEmail').hide();
-   $('#mailLink').css("display", "block");
+  function showEmail(idHide, idShow) {
+    console.log(idShow, )
+   $(idHide).hide();
+   $(idShow).css("display", "block");
   }
 </script>

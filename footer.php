@@ -92,7 +92,9 @@
 
         <div class="top_address top_address bot_addres">
           <?= $ADDRESS ?>
-          <a class="mailLink_top mailLink--bottom mail-bottom_mobile socweb" href="mailto:<?=$EMAIL?>">
+
+          <div class="hiddenEmail" id="hiddenEmailFooter"> info@...<a href="#" class="show-link" onclick="event.preventDefault(); showEmail('#hiddenEmailFooter', '#emailFooter')">Показать</a> </div>
+          <a id="emailFooter" class="mailLink_top mailLink--bottom mail-bottom_mobile socweb emailHeader" href="mailto:<?=$EMAIL?>">
             <?=$EMAIL?>
           </a>
         </div>
