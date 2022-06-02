@@ -418,6 +418,26 @@ footer .footer-top .feedback_block {
   font-weight: 400;
 }
 
+.footer_item__call_link,
+.footer_item__hiddenPhone {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 0;  
+  font-weight: 400;
+}
+
+.footer_item__call_link:hover,
+.footer_item__hiddenPhone a:hover {
+  text-decoration: none;
+}
+
+#phoneFooterItem,
+#emailFooterItem {
+  display: none;
+}
+
 .algorithm {
   padding-top: 100px;
 }
