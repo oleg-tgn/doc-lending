@@ -607,6 +607,12 @@ footer .footer-top .feedback_block {
   font-size: 14px;
 }
 
+@media (max-width: 767.99px) {
+  .top_telephone .telephone_link {
+    font-size: 14px;
+  }
+}
+
 .top_desc {
   font-size: 14px;
   display: block;

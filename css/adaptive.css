@@ -584,6 +584,16 @@
     text-align: right;
   }
 
+  .hiddenPhone,
+  .top_telephone .telephone_link {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .mailLink_top.mailLink--bottom.mail-bottom_mobile.socweb {
+    font-size: 14px;
+  }
+
   .top_telephone {
     justify-content: end;
   }
