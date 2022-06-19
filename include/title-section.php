@@ -1,4 +1,4 @@
-<script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+<script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU&apikey=9cd577cf-0897-457a-b78d-e6cd75e5546c" type="text/javascript"></script>
 
 <?php
   // $ourData = file_get_contents("cities.json");
