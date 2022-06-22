@@ -1,0 +1,70 @@
+.breadcrumbs {
+    margin-top: 20px;
+}
+
+.textcanvas {
+    margin-bottom: 50px;
+}
+
+.textcanvas_text {
+    font-size: 18px;
+}
+
+.textcanvas_subtitle {
+    margin-bottom: 15px;
+}
+
+.textcanvas ul:not(.list-unstyled),
+.textcanvas ol:not(.list-unstyled) {
+    list-style-type: none;
+    padding-left: 35px;
+}
+
+.textcanvas ul:not(.list-unstyled) li,
+.textcanvas ol:not(.list-unstyled) li {
+    position: relative;
+    color: #000407;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.textcanvas ul:not(.list-unstyled) li:before,
+.textcanvas ol:not(.list-unstyled) li:before {
+    content: '';
+    background: url(../img/footer/ul.svg) no-repeat left top;
+    position: absolute;
+    top: 6px;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    margin-left: -35px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textcanvas ol:not(.list-unstyled) {
+    counter-reset: myCounter;
+}
+
+.textcanvas ol:not(.list-unstyled) > li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter) ".";
+    color: rgba(55,140,241,1);
+    background: 0 0;
+    font-weight: 600;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    top: auto;
+}
+
+.textcanvas ul:not(.list-unstyled) li,
+.textcanvas ol:not(.list-unstyled) li {
+    font-size: 18px;
+}
+
+.textcanvas ol:not(.list-unstyled) > li:before {
+    font-size: 18px;
+}

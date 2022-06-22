@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria/Geometria.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria/Geometria-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria/Geometria-Light.woff');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria/Geometria-Medium.woff');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSasn';
+    src: url('../fonts/PTSans/PTSans-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSasn';
+    src: url('../fonts/PTSans/PTSans-Bolditalic.woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PTSasn';
+    src: url('../fonts/PTSans/PTSans-italic.woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PTSasn';
+    src: url('../fonts/PTSans/PTSans-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
