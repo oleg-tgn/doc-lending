@@ -59,18 +59,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="serviceMenu__logo-link" href="/"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
+        <a class="serviceMenu__logo-link" href="/marketplace/"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav serviceMenu__links">
-          <li data-link="sertification-types"><a href="/#sertification-types" class="serviceMenu__link">Сертификация</a></li>
-          <li data-link="algorithm"><a href="#algorithm" class="serviceMenu__link">Алгоритм</a></li>
-          <li data-link="guarantee"><a href="#guarantee" class="serviceMenu__link">Преимущества</a></li>
-          <li data-link="thanks"><a href="#thanks" class="serviceMenu__link">Благодарности</a></li>
-          <li data-link="faq"><a href="#faq" class="serviceMenu__link">Вопросы</a></li>
-          <li data-link="contacts"><a href="#contacts" class="serviceMenu__link">Контакты</a></li>
+          <li data-link="sertification-types"><a href="/marketplace/#sertification-types" class="serviceMenu__link">Сертификация</a></li>
+          <li data-link="algorithm"><a href="/marketplace/#algorithm" class="serviceMenu__link">Алгоритм</a></li>
+          <li data-link="guarantee"><a href="/marketplace/#guarantee" class="serviceMenu__link">Преимущества</a></li>
+          <li data-link="thanks"><a href="/marketplace/#thanks" class="serviceMenu__link">Благодарности</a></li>
+          <li data-link="faq"><a href="/marketplace/#faq" class="serviceMenu__link">Вопросы</a></li>
+          <li data-link="contacts"><a href="/marketplace/#contacts" class="serviceMenu__link">Контакты</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>

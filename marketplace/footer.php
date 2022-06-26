@@ -45,7 +45,7 @@
       <div class="container">
         <ul class="bottom-menu list-unstyled py-2">
           <li class="bottom-menu__item">
-            <a href="/marketplace" class="bottom-menu__link"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
+            <a href="/marketplace/" class="bottom-menu__link"><img class="bottom-menu__link" alt="Альфа Сертификат" src="/img/logow.svg"></a>
           </li>
 
           <li class="bottom-menu__item">

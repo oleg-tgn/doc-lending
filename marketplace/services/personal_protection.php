@@ -13,7 +13,7 @@
   <div class="container">
     <div id="breadcrumbs" class="breadcrumbs">
        <span>
-           <a title="Главная" href="/index.php"><span class="hidden-xs"><?=$SITE_NAME?></span></a>
+           <a title="Главная" href="/marketplace/index.php"><span class="hidden-xs"><?=$SITE_NAME?></span></a>
        </span>      
        <span class="bc-arrow">→</span>
        <span>Индивидуальная защита</span>
