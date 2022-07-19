@@ -1,17 +1,18 @@
+.feedback {
+    padding-top: 70px;
+}
+
 .feedback__container {
     margin-top: 10px;
 }
 
+.feedback__title {
+    margin-bottom: 25px;
+}
+
 .feedback__btn {
-    margin: 60px auto;
+    margin: 20px auto 60px;
     display: block;
-    background-color: rgba(48, 153, 233, 1);
-    padding: 19px 55px;
-    border: none;
-    border-radius: 20px;
-    font-size: 21px;
-    font-weight: 500;
-    color: #fff;
 }
 
 .feedback__btn:hover {
@@ -20,13 +21,13 @@
 }
 
 .feedback-popup__text {
-    margin-top: 40px;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: left;
 }
 
 .feedback-popup__question-block {
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 .feedback-popup__question {
@@ -70,4 +71,83 @@
 .feedback-popup__answer-btn:hover {
     border-bottom: 0px solid #14629e;
     background-color: rgba(48, 153, 233, 0.9);
+}
+
+.feedback-popup__question {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+.dont-know-label {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/*  
+   * Rating styles
+   */
+.rating {
+    width: 282px;
+    margin: 0 -4px;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+.rating input {
+    float: right;
+    opacity: 0;
+    position: absolute;
+}
+
+.rating a,
+.rating label {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+}
+
+.rating label {
+    margin: 0 4px;
+}
+
+.rating label::after {
+    content: "☆";
+    font-size: 58px;
+    line-height: 1;
+    color: rgb(231, 232, 234);
+}
+
+.rating label:hover~label::after,
+.rating input:focus~label::after,
+.rating label:hover::after,
+.rating input:checked~label::after {
+    content: "★";
+    color: #ffdd2d;
+    cursor: pointer;
+}
+
+/* .rating label:hover~label,
+.rating input:focus~label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover~a,
+.rating a:focus,
+.rating a:focus~a {
+    content: "★";
+    color: orange;
+    cursor: pointer;
+} */
+
+.rating2 {
+    direction: rtl;
+}
+
+.rating2 a {
+    float: none
 }

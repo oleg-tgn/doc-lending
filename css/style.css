@@ -186,6 +186,18 @@ h1 {
   background-color: rgba(48, 153, 233, 0.9);
 }
 
+.btn_top.btn_top--default {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  background-color: transparent !important;
+  color: rgb(51, 51, 51) !important;
+  border-radius: 20px;
+}
+
+.btn_top.btn_top--default:hover {
+  opacity: 0.8;
+}
+
 .btn_top:focus {
   color: #fff !important;
 }

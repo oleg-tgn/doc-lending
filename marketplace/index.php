@@ -16,6 +16,7 @@
   include('include/thanks.php');
   include('include/faq.php');
   include('include/contacts.php');
+  include('../include/feedback.php');
   include('include/map.php');
 
   include('footer.php');

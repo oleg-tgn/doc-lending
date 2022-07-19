@@ -27,25 +27,27 @@ try {
     //Recipients
     $mail->setFrom('sert.alfa@yandex.ru', 'Alfa Sert');  // от кого
     //$mail->addAddress('info_alfasert@mail.ru', 'Alfa Sertificat'); // кому
-    $mail->addAddress('stelmah.oleg@mail.ru', 'Alfa Sertificat'); // кому
-   
-    $name  = $_POST['feedback_name'];
-    //$email = $_POST['feedback_email'];
-    // $text  = $_POST['feedback_text'];
-    $tel = $_POST['feedback_text'];
-    $message = "<h1>Обратная связь</h1>
-                <p><b>Имя:</b> $name </p>
-                <p><b>Телефон:</b> $tel</p>";
+    $mail->addAddress('stelmah.oleg@ya.ru', 'Alfa Sertificat'); // кому
+
+    $informationContent  = $_POST['informationContent'];
+    $easyNavigate  = $_POST['easyNavigate'];
+    $design  = $_POST['design'];
+    $message = "<h1>Оценка сайта:</h1>
+                <p><b>Информационное наполнение:</b> $informationContent</p>
+                <p><b>Удобство навигации:</b> $informationContent</p>
+                <p><b>Дизайн, визуальное представление:</b> $design</p>";
+
+
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Обратная связь';
+    $mail->Subject = 'Оценка сайта';
     $mail->Body    = $message;
 
     if ($mail->send()) {
-        $new_url .= '?mail=success#feedback';
+        $new_url .= '?feedback=success#feedbackBtn';
         header("Location: ".$new_url);
-    }    
+    }
 } catch (Exception $e) {
     $new_url.= '?mail=error&message='.$mail->ErrorInfo.'#feedback';
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
