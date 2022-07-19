@@ -26,8 +26,8 @@ try {
 
     //Recipients
     $mail->setFrom('sert.alfa@yandex.ru', 'Alfa Sert');  // от кого
-    //$mail->addAddress('info_alfasert@mail.ru', 'Alfa Sertificat'); // кому
-    $mail->addAddress('stelmah.oleg@ya.ru', 'Alfa Sertificat'); // кому
+    $mail->addAddress('info_alfasert@mail.ru', 'Alfa Sertificat'); // кому
+    //$mail->addAddress('stelmah.oleg@ya.ru', 'Alfa Sertificat'); // кому
 
     $informationContent  = $_POST['informationContent'];
     $easyNavigate  = $_POST['easyNavigate'];
