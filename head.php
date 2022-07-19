@@ -39,6 +39,7 @@
 <link href="/css/fonts.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
 <link href="/css/adaptive.css" rel="stylesheet">
+<link href="/css/feedback.css" rel="stylesheet">
 
 
 <link href="/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
