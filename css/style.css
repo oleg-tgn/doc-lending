@@ -282,7 +282,7 @@ h3,
 }
 
 .row-footer {
-  padding: 100px 0px 100px;
+  padding: 100px 0px 0;
 }
 
 .row-footer h2 {
