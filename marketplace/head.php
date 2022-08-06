@@ -35,13 +35,14 @@
 <link rel="manifest" href="/img/favicons/site.webmanifest">
 <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
-<link href="/marketplace/css/bootstrap.css" rel="stylesheet">
-<link href="/marketplace/css/fonts.css" rel="stylesheet">
-<link href="/marketplace/css/style.css" rel="stylesheet">
-<link href="/marketplace/css/adaptive.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/fonts.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/adaptive.css" rel="stylesheet">
+<link href="/css/feedback.css" rel="stylesheet">
+<link href="/css/marketplace.css" rel="stylesheet">
 
-
-<link href="/marketplace/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="/css/bg_slide.css" type="text/css" data-template-style="true" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
 <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">

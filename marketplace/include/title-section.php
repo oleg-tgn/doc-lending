@@ -13,19 +13,23 @@ if ($geoCity) {
 
 <div class="container cont1_1">
   <div class="col-md-6 no-pad">
-    <h1>Сертификаты для всех маркетплейсов</h1>
+    <h1 class="first_title">Сертификаты для всех маркетплейсов</h1>
     <p class="first_desc">За 1 день в г. <?=$city?> <span>сертифицируем все виды продукции</span> с&nbsp;внесением в&nbsp;реестр ФСА и гарантией легитимности</p>
-    <div class="col-xs-4 utp">
+    <div class="col-xs-6 utp">
       <img alt="Альфа Сертификат" src="img/icons/utp_1.png">
       <p class="utp_text"><span>Отправим оригинал <br>бесплатно</span> в любую <br>точку РФ за 5 дней</p>
     </div>
-    <div class="col-xs-4 utp">
+    <div class="col-xs-6 utp">
       <img alt="Альфа Сертификат" src="img/icons/utp_2.png">
       <p class="utp_text"><span>Уложимся в срок <br>по договору</span> или <br>вернем деньги</p>
     </div>
-    <div class="col-xs-4 utp">
+    <div class="col-xs-6 utp">
       <img alt="Альфа Сертификат" src="img/icons/utp_3.png">
       <p class="utp_text"><span>Делаем приятные <br>скидки</span> постоянным <br>клиентам</p>
+    </div>
+    <div class="col-xs-6 utp">
+      <img alt="Кредит" src="img/icons/credit-bold.jpg" class="title-section__icon">
+      <p class="utp_text">Можем <b>оформить&nbsp;рассрочку</b> на&nbsp;сертификацию</p>
     </div>
     <div class="cl"></div>
     <button class="btn btn_top anim-btn js-open-callbackkiller" data-toggle="modal" data-target="#modalCalc">Рассчитать стоимость бесплатно</button>

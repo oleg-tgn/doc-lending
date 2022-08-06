@@ -4,27 +4,32 @@
     <ol class="algorithm_row">
       <li class="algorithm_step">
         <img class="algorithm_img" alt="Бесплатный аудит" src="./img/algorithm/logoblue/search.png">
-        <p class="algorithm_text">Бесплатный аудит</p>
+        <p class="algorithm_text">Бесплатный<br>аудит</p>
+      </li>
+      <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
+      <li class="algorithm_step">
+        <img class="algorithm_img" alt="Оформить кредит" src="./img/icons/credit-blue.jpg">
+        <p class="algorithm_text">Оформление<br>рассрочки</p>
       </li>
       <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
       <li class="algorithm_step">
         <img class="algorithm_img" alt="Подписание договора" src="./img/algorithm/logoblue/signature.png">
-        <p class="algorithm_text">Подписание договора</p>
+        <p class="algorithm_text">Подписание<br>договора</p>
       </li>
       <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
       <li class="algorithm_step">
         <img class="algorithm_img" alt="Макет документа" src="./img/algorithm/logoblue/create_doc.png">
-        <p class="algorithm_text">Макет документа</p>
+        <p class="algorithm_text">Макет<br>документа</p>
       </li>
       <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
       <li class="algorithm_step">
         <img class="algorithm_img" alt="Регистрация в реестре" src="./img/algorithm/logoblue/document.png">
-        <p class="algorithm_text">Регистрация в реестре</p>
+        <p class="algorithm_text">Регистрация<br>в реестре</p>
       </li>
       <img class="algorithm_arrow" alt="далее" src="./img/algorithm/arrow.jpeg">
       <li class="algorithm_step">
         <img class="algorithm_img" alt="Бесплатная доставка" src="./img/algorithm/logoblue/letter_speed.png">
-        <p class="algorithm_text">Бесплатная доставка</p>
+        <p class="algorithm_text">Бесплатная<br>доставка</p>
       </li>
     </ol>
   </div>
