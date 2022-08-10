@@ -157,9 +157,15 @@ h1 {
   padding-top: 22px;
 }
 
-.utp_text {
+.utp_text { 
   font-size: 14px;
   padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .utp_text {
+    margin: 0 auto;
+  }
 }
 
 .utp_text span {
@@ -492,6 +498,12 @@ footer .footer-top .feedback_block {
   font-size: 18px;
   text-align: center;
   font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .algorithm_text {
+    max-width: 140px;
+  }
 }
 
 .panel-group {

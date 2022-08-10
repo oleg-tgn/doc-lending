@@ -17,6 +17,7 @@
           <li class="care_p1">Можно оформить рассрочку на сертификацию.</li>
         </ol>
         <button class="btn btn_top anim-btn js-open-callbackkiller">Связаться с нами</button>
+        <button class="btn btn_top anim-btn js-open-callbackkiller">Оставить заявку на рассрочку</button>
         <div class="cl"></div>
       </div>
     </div>
