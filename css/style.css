@@ -457,11 +457,11 @@ footer .footer-top .feedback_block {
 .footer_item__hiddenPhone a:hover {
   text-decoration: none;
 }
-
+/* 
 #phoneFooterItem,
 #emailFooterItem {
   display: none;
-}
+} */
 
 .algorithm {
   padding-top: 100px;
