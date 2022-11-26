@@ -84,7 +84,7 @@
             <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
           </a>
           <div class="phone-footer-wrap">
-            <div class="hiddenPhone" id="hiddenPhoneFooter"> 8 800...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenPhoneFooter', '#phoneFooter')">Показать</a> </div>
+            <!-- <div class="hiddenPhone" id="hiddenPhoneFooter"> 8 800...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenPhoneFooter', '#phoneFooter')">Показать</a> </div> -->
             <a id="phoneFooter" class="telephone_link_bot" href="tel:+78002019235">
               <?= $TELEPHONE ?>
             </a>
@@ -94,7 +94,7 @@
         <div class="top_address top_address bot_addres">
           <?= $ADDRESS ?>
 
-          <div class="hiddenEmail" id="hiddenEmailFooter"> info@...<a href="#" class="show-link" onclick="event.preventDefault(); showHiddenInfo('#hiddenEmailFooter', '#emailFooter')">Показать</a> </div>
+          <!-- <div class="hiddenEmail" id="hiddenEmailFooter"> info@...<a href="#" class="show-link" onclick="event.preventDefault(); showHiddenInfo('#hiddenEmailFooter', '#emailFooter')">Показать</a> </div> -->
           <a id="emailFooter" class="mailLink_top mailLink--bottom mail-bottom_mobile socweb emailHeader" href="mailto:<?=$EMAIL?>">
             <?=$EMAIL?>
           </a>
