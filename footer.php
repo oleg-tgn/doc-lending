@@ -86,7 +86,7 @@
           <div class="phone-footer-wrap">
             <!-- <div class="hiddenPhone" id="hiddenPhoneFooter">  -->
               <!-- 8 800...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenPhoneFooter', '#phoneFooter')">Показать</a> </div> -->
-            <a id="phoneFooter" class="telephone_link_bot" href="tel:+78002019235">
+            <a id="phoneFooter" class="telephone_link_bot" href="tel:<?= $TELEPHONE ?>">
               <?= $TELEPHONE ?>
             </a>
           </div>
