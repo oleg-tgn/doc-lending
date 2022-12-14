@@ -20,7 +20,7 @@
         <div>
           <!-- <div class="hiddenPhone" id="hiddenPhoneHeader"> 8 800...<a href="#" onclick="event.preventDefault(); showHiddenInfo('#hiddenPhoneHeader', '#phoneHeader')">Показать</a> </div> -->
 
-          <a id="phoneHeader" class="telephone_link" href="tel:+78002019235">
+          <a id="phoneHeader" class="telephone_link" href="tel:<?= $TELEPHONE ?>">
             <?= $TELEPHONE ?>
           </a>
           <a class="heder_callmy js-open-callbackkiller hidden-on-mobile" href="#">
