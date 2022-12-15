@@ -74,13 +74,16 @@
 
       <d  iv class="cont1 bottom_wrapper">
                   
-        <p class="top_desc top_desc--bottom">ООО &laquo;Альфа-Сертификат&raquo;<br>ОГРН 1216100034215 от 08.12.2021г<br>ИНН 6154161721</p>
+        <p class="top_desc top_desc--bottom">
+          ООО &laquo;Альфа-Сертификат&raquo;<br>ОГРН 1216100034215 от 08.12.2021г<br>ИНН 6154161721
+        <br>Являемся партнерами ООО "Лидер"
+        </p>
 
         <div class="top_telephone top_telephone hidden-on-mobile">
           <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://telegram.me/Alfa_Sert_Trilion">
             <img class="tel_logo" alt="Telegram" src="/img/icons/telegram-1.svg">
           </a>
-          <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://wa.me/+79043433544">
+          <a class="mailLink mailLink--bottom socweb" target="_blank" href="https://wa.me/<?=$WHATSAPP?>">
             <img class="tel_logo" alt="WhatsApp" src="/img/icons/whatsapp-symbol.svg">
           </a>
           <div class="phone-footer-wrap">

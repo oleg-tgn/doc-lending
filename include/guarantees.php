@@ -9,11 +9,13 @@
         <ol class="guarantee__list">
           <li class="care_p1">Мы аттестованный орган
             (<a href="/img/Acreditation.jpg" data-fancybox="gallery" data-caption="Аттестат аккредитиации органа по сертификации">Аттестат аккредитиации</a>,
-             <a href="/img/aplication_acreditation.jpg" data-fancybox="gallery" data-caption="Перечень услуг, характеристик и документов, на соответвии которым проводитсядобровольная сертификация">приложение</a>)</li>
+             <a href="/img/aplication_acreditation.jpg" data-fancybox="gallery" data-caption="Перечень услуг, характеристик и документов, на соответвии которым проводитсядобровольная сертификация">приложение</a>
+             )</li>
           <li class="care_p1">Команда высококласных специалистов с многолетним опытом;</li>
           <li class="care_p1">Доставка оригиналов документов в течении 5 рабочих дней;</li>
           <li class="care_p1">Не теряем связь с клиентами, в том числе после завершения проекта;</li>
           <li class="care_p1">В случае форс-мажорных ситуаций компания берет на себя ответственность за решение вопросов.</li>
+          <li class="care_p1">Партнеры ООО "Лидер" (<a href="/img/OOOLider.jpg" data-fancybox="gallery" data-caption='Аттестат аккредитиации ООО "Лидер"'>Аттестат аккредитиации</a>).</li>
         </ol>
         <button class="btn btn_top anim-btn js-open-callbackkiller">Связаться с нами</button>
         <div class="cl"></div>
